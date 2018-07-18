@@ -1,15 +1,15 @@
-# Side Menu
+# Deuro
 
 [![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)](http://cocoapods.org/?q=YALSideMenu)
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Yalantis/Side-Menu.iOS/blob/master/LICENSE)
 
-<img src="https://d13yacurqjgara.cloudfront.net/users/125056/screenshots/1689922/events-menu_1-1-6.gif" />
+<img src="demo.gif" />
 
 ## Requirements
 
-- iOS 7+
-- Swift 3
-- Xcode 8
+- iOS 10+
+- Swift 4
+- Xcode 10
 
 ## License
 
