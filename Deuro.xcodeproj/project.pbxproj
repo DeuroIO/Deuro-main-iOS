@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0C7FD0620FFA3250052FD53 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7FD0520FFA3250052FD53 /* MainNavigationController.swift */; };
 		D527A101E3BF9D807CC9609B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D527A8A79CD3995976B1E6E1 /* LaunchScreen.xib */; };
 		D527A20BFCB7C7B0E37A4763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D527A0056D698FE36A57118C /* Main.storyboard */; };
-		D527A433F1D6C1CBE9A8CCFE /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527AA09B1BD9459C6ADB97B /* ContentViewController.swift */; };
 		D527A57D9911754481704B6B /* CircularRevealAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527A13E48B18500949B7B96 /* CircularRevealAnimator.swift */; };
 		D527A7200B55D7F02B668EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527A9A1CA6B6431213BC32A /* AppDelegate.swift */; };
 		D527A8AB2910DEAFC8280DB3 /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527A38D471E969546101E9D /* AnimationDelegate.swift */; };
@@ -39,6 +39,7 @@
 		50B9664E1A25E40E00208F2E /* Deuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B966521A25E40E00208F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DB3452E422EDC1248757C18 /* Pods-Deuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deuro/Pods-Deuro.debug.xcconfig"; sourceTree = "<group>"; };
+		C0C7FD0520FFA3250052FD53 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		D4C4F723FF1E3379112A01B4 /* Pods-Deuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Deuro/Pods-Deuro.release.xcconfig"; sourceTree = "<group>"; };
 		D527A0056D698FE36A57118C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D527A13E48B18500949B7B96 /* CircularRevealAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularRevealAnimator.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		D527A483DF3A43722B868175 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D527A8A79CD3995976B1E6E1 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		D527A9A1CA6B6431213BC32A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D527AA09B1BD9459C6ADB97B /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		D527AD4045CEF0C845F9C597 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		D527ADC428F439B09D3D9536 /* CircularRevealTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularRevealTransitionAnimator.swift; sourceTree = "<group>"; };
 		D527AF8B99B6CDA9B3B54F68 /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
@@ -82,13 +82,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		50B42F201A6A8E8500B05352 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Framework;
-			sourceTree = "<group>";
-		};
 		50B966451A25E40E00208F2E = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +103,6 @@
 		50B966501A25E40E00208F2E /* Deuro */ = {
 			isa = PBXGroup;
 			children = (
-				50B42F201A6A8E8500B05352 /* Framework */,
 				50B966511A25E40E00208F2E /* Supporting Files */,
 				D527A3BCD5D6369AB1ACD0C3 /* Misc */,
 				D527AE40C58FD3F74535DE08 /* Extension */,
@@ -158,8 +150,8 @@
 		D527A938FBAD14B57AC9C753 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D527AA09B1BD9459C6ADB97B /* ContentViewController.swift */,
 				D527AD4045CEF0C845F9C597 /* MenuViewController.swift */,
+				C0C7FD0520FFA3250052FD53 /* MainNavigationController.swift */,
 				D527A483DF3A43722B868175 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -280,10 +272,22 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Deuro/Pods-Deuro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AXIndicatorView/AXIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/AXNavigationBackItemInjection/AXNavigationBackItemInjection.framework",
+				"${BUILT_PRODUCTS_DIR}/AXPracticalHUD/AXPracticalHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/AXWebViewController/AXWebViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/NJKWebViewProgress/NJKWebViewProgress.framework",
 				"${BUILT_PRODUCTS_DIR}/YALSideMenu/SideMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXNavigationBackItemInjection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXPracticalHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXWebViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJKWebViewProgress.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +337,7 @@
 			files = (
 				D527A8AB2910DEAFC8280DB3 /* AnimationDelegate.swift in Sources */,
 				D527ABFB0A09CCCD2CDA8D1F /* UITableViewCell.swift in Sources */,
-				D527A433F1D6C1CBE9A8CCFE /* ContentViewController.swift in Sources */,
+				C0C7FD0620FFA3250052FD53 /* MainNavigationController.swift in Sources */,
 				D527AF8942F06D055CB017CD /* MenuViewController.swift in Sources */,
 				D527ADAA92A06CB2A8B2A8CE /* ViewController.swift in Sources */,
 				D527A57D9911754481704B6B /* CircularRevealAnimator.swift in Sources */,

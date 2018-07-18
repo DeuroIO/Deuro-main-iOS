@@ -134,9 +134,21 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AXIndicatorView/AXIndicatorView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AXNavigationBackItemInjection/AXNavigationBackItemInjection.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AXPracticalHUD/AXPracticalHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AXWebViewController/AXWebViewController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NJKWebViewProgress/NJKWebViewProgress.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YALSideMenu/SideMenu.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AXIndicatorView/AXIndicatorView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AXNavigationBackItemInjection/AXNavigationBackItemInjection.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AXPracticalHUD/AXPracticalHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AXWebViewController/AXWebViewController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NJKWebViewProgress/NJKWebViewProgress.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YALSideMenu/SideMenu.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

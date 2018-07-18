@@ -38,9 +38,6 @@ extension ViewController: MenuViewControllerDelegate {
     func menu(_: MenuViewController, didSelectItemAt index: Int, at point: CGPoint) {
         transitionPoint = point
         selectedIndex = index
-
-        let content = storyboard!.instantiateViewController(withIdentifier: "Content") as! ContentViewController
-        navigator.setViewControllers([content], animated: true)
         
         DispatchQueue.main.async {
             self.dismiss(animated: true, completion: nil)

@@ -1,12 +1,34 @@
 PODS:
+  - Aspects (1.4.1)
+  - AXIndicatorView (0.1.1)
+  - AXNavigationBackItemInjection (0.0.2)
+  - AXPracticalHUD (2.0.2):
+    - AXIndicatorView
+  - AXWebViewController (0.7.2):
+    - Aspects
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - NJKWebViewProgress
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
   - YALSideMenu (2.0.1)
 
 DEPENDENCIES:
+  - AXWebViewController
   - YALSideMenu
 
 SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AXIndicatorView: 566b490a2dd9781d4ffbcc9752be9b9cdc6e728e
+  AXNavigationBackItemInjection: efe0446967f3cbcc85a9118decd1e145138912dd
+  AXPracticalHUD: 16c3ff6d97c061e80e80897b2e6ac8e330079472
+  AXWebViewController: 96566c473fce2806f4da696132b31777f5404c9f
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
   YALSideMenu: 4d6b90ea44dcdded18a99e46b676e4ad51d9c6bb
 
-PODFILE CHECKSUM: 0bdad3e97085200a356b653126849bd849ff875d
+PODFILE CHECKSUM: ad4785ad3d29ee7fd59c3542842832c87ba8e9a9
 
 COCOAPODS: 1.4.0
