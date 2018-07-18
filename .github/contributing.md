@@ -2,9 +2,9 @@
 
 #### **Did you find a bug?**
 
-* **Ensure the bug was not already reported** by searching under [Issues](https://github.com/Yalantis/Side-Menu.iOS/issues).
+* **Ensure the bug was not already reported** by searching under [Issues](https://github.com/DeuroIO/Deuro-main-iOS/issues).
 
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/Yalantis/Side-Menu.iOS/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **example project** demonstrating the expected behavior that is not occurring.
+* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/DeuroIO/Deuro-main-iOS/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **example project** demonstrating the expected behavior that is not occurring.
 
 * Fill appropriate section in issue template and remove the section you aren't interested in.
 
@@ -13,7 +13,7 @@
 * Open a new GitHub pull request with the patch.
 
 * Ensure the PR description clearly describes the problem and solution. Include the relevant issue number if applicable.
- 
+
 * Ensure the PR doesn't extend the number of existing issues.
 
 #### **Did you fix whitespace, format code, or make a purely cosmetic patch?**
@@ -53,6 +53,4 @@
 
 For any usage questions that are not specific to the project itself, please ask on [Stack Overflow](https://stackoverflow.com/). By doing so, you'll be more likely to quickly solve your problem, and you'll allow anyone else with the same question to find the answer. This also allows maintainers to focus on improving the project for others.
 
-## Thank you! 
-
-#### [![Yalantis](https://raw.githubusercontent.com/Yalantis/PullToMakeSoup/master/PullToMakeSoupDemo/Resouces/badge_dark.png)](https://Yalantis.com/?utm_source=github)
+## Thank you!
