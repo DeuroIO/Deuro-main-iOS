@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		465BD58B35BEBE352CB08BF2 /* Pods_Deuro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22114E08B5BE94880F66A1D1 /* Pods_Deuro.framework */; };
-		5008F06C1A6D0B4E00D6B4EE /* SideMenu.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 50B42F261A6A8E9800B05352 /* SideMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5097E21E1A6A95CB002B4838 /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B42F261A6A8E9800B05352 /* SideMenu.framework */; };
 		D527A101E3BF9D807CC9609B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D527A8A79CD3995976B1E6E1 /* LaunchScreen.xib */; };
 		D527A20BFCB7C7B0E37A4763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D527A0056D698FE36A57118C /* Main.storyboard */; };
 		D527A433F1D6C1CBE9A8CCFE /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527AA09B1BD9459C6ADB97B /* ContentViewController.swift */; };
@@ -21,31 +18,8 @@
 		D527ABFB0A09CCCD2CDA8D1F /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527AF8B99B6CDA9B3B54F68 /* UITableViewCell.swift */; };
 		D527ADAA92A06CB2A8B2A8CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527A483DF3A43722B868175 /* ViewController.swift */; };
 		D527AF8942F06D055CB017CD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527AD4045CEF0C845F9C597 /* MenuViewController.swift */; };
+		F3620E0306A3627D68ADD8CB /* Pods_Deuro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22114E08B5BE94880F66A1D1 /* Pods_Deuro.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		50B42F251A6A8E9800B05352 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 50B42F211A6A8E9800B05352 /* SideMenu.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 50B42F001A6A879C00B05352;
-			remoteInfo = SideMenu;
-		};
-		50B42F271A6A8EA300B05352 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 50B42F211A6A8E9800B05352 /* SideMenu.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 50B42EFF1A6A879C00B05352;
-			remoteInfo = SideMenu;
-		};
-		C0C7FCF320FF29420052FD53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C0C7FCEF20FF29410052FD53 /* SideMenu.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 50B42F001A6A879C00B05352;
-			remoteInfo = SideMenu;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5008F06B1A6D0B4500D6B4EE /* Copy Files */ = {
@@ -54,7 +28,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5008F06C1A6D0B4E00D6B4EE /* SideMenu.framework in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,12 +36,10 @@
 
 /* Begin PBXFileReference section */
 		22114E08B5BE94880F66A1D1 /* Pods_Deuro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deuro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BD1D58EC12DA0094BAAE4A0 /* Pods-Deuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deuro/Pods-Deuro.debug.xcconfig"; sourceTree = "<group>"; };
-		50B42F211A6A8E9800B05352 /* SideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SideMenu.xcodeproj; path = ../../SideMenu/SideMenu.xcodeproj; sourceTree = "<group>"; };
 		50B9664E1A25E40E00208F2E /* Deuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B966521A25E40E00208F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		882ECE8CF44659F7EE6603FB /* Pods-Deuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Deuro/Pods-Deuro.release.xcconfig"; sourceTree = "<group>"; };
-		C0C7FCEF20FF29410052FD53 /* SideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SideMenu.xcodeproj; sourceTree = "<group>"; };
+		7DB3452E422EDC1248757C18 /* Pods-Deuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deuro/Pods-Deuro.debug.xcconfig"; sourceTree = "<group>"; };
+		D4C4F723FF1E3379112A01B4 /* Pods-Deuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Deuro/Pods-Deuro.release.xcconfig"; sourceTree = "<group>"; };
 		D527A0056D698FE36A57118C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D527A13E48B18500949B7B96 /* CircularRevealAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularRevealAnimator.swift; sourceTree = "<group>"; };
 		D527A23D29DEA855526855B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -87,19 +58,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5097E21E1A6A95CB002B4838 /* SideMenu.framework in Frameworks */,
-				465BD58B35BEBE352CB08BF2 /* Pods_Deuro.framework in Frameworks */,
+				F3620E0306A3627D68ADD8CB /* Pods_Deuro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23A7D99CA1B95E1A13EB38EA /* Pods */ = {
+		0D6E39D4803602390BCA225F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2BD1D58EC12DA0094BAAE4A0 /* Pods-Deuro.debug.xcconfig */,
-				882ECE8CF44659F7EE6603FB /* Pods-Deuro.release.xcconfig */,
+				7DB3452E422EDC1248757C18 /* Pods-Deuro.debug.xcconfig */,
+				D4C4F723FF1E3379112A01B4 /* Pods-Deuro.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -115,27 +85,17 @@
 		50B42F201A6A8E8500B05352 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				50B42F211A6A8E9800B05352 /* SideMenu.xcodeproj */,
 			);
 			name = Framework;
-			sourceTree = "<group>";
-		};
-		50B42F221A6A8E9800B05352 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				50B42F261A6A8E9800B05352 /* SideMenu.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		50B966451A25E40E00208F2E = {
 			isa = PBXGroup;
 			children = (
-				C0C7FCEF20FF29410052FD53 /* SideMenu.xcodeproj */,
 				50B966501A25E40E00208F2E /* Deuro */,
 				50B9664F1A25E40E00208F2E /* Products */,
-				23A7D99CA1B95E1A13EB38EA /* Pods */,
 				3B601C49D1039C8A428B8796 /* Frameworks */,
+				0D6E39D4803602390BCA225F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,14 +126,6 @@
 				50B966521A25E40E00208F2E /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C0C7FCF020FF29410052FD53 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C0C7FCF420FF29420052FD53 /* SideMenu.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D527A3BCD5D6369AB1ACD0C3 /* Misc */ = {
@@ -246,18 +198,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50B9666D1A25E40E00208F2E /* Build configuration list for PBXNativeTarget "Deuro" */;
 			buildPhases = (
-				605C664243115F63C3C09ACC /* [CP] Check Pods Manifest.lock */,
+				D64E69EF36DD1BB975B5F1A1 /* [CP] Check Pods Manifest.lock */,
 				50B9664A1A25E40E00208F2E /* Sources */,
 				50B9664B1A25E40E00208F2E /* Frameworks */,
 				50B9664C1A25E40E00208F2E /* Resources */,
 				5008F06B1A6D0B4500D6B4EE /* Copy Files */,
-				23E1547678ECDB390FFC3E3F /* [CP] Embed Pods Frameworks */,
-				9A31537DCDAA335A79D800E8 /* [CP] Copy Pods Resources */,
+				453EDA71DFF6C29096125C72 /* [CP] Embed Pods Frameworks */,
+				4C3DF0C0A4766C5F80AC1FF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				50B42F281A6A8EA300B05352 /* PBXTargetDependency */,
 			);
 			name = Deuro;
 			productName = Menu;
@@ -301,39 +252,12 @@
 			mainGroup = 50B966451A25E40E00208F2E;
 			productRefGroup = 50B9664F1A25E40E00208F2E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 50B42F221A6A8E9800B05352 /* Products */;
-					ProjectRef = 50B42F211A6A8E9800B05352 /* SideMenu.xcodeproj */;
-				},
-				{
-					ProductGroup = C0C7FCF020FF29410052FD53 /* Products */;
-					ProjectRef = C0C7FCEF20FF29410052FD53 /* SideMenu.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				50B9664D1A25E40E00208F2E /* Deuro */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		50B42F261A6A8E9800B05352 /* SideMenu.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SideMenu.framework;
-			remoteRef = 50B42F251A6A8E9800B05352 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C0C7FCF420FF29420052FD53 /* SideMenu.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SideMenu.framework;
-			remoteRef = C0C7FCF320FF29420052FD53 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		50B9664C1A25E40E00208F2E /* Resources */ = {
@@ -349,25 +273,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		23E1547678ECDB390FFC3E3F /* [CP] Embed Pods Frameworks */ = {
+		453EDA71DFF6C29096125C72 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Deuro/Pods-Deuro-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftWebVC/SwiftWebVC.framework",
+				"${BUILT_PRODUCTS_DIR}/YALSideMenu/SideMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftWebVC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deuro/Pods-Deuro-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		605C664243115F63C3C09ACC /* [CP] Check Pods Manifest.lock */ = {
+		4C3DF0C0A4766C5F80AC1FF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deuro/Pods-Deuro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D64E69EF36DD1BB975B5F1A1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,21 +322,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A31537DCDAA335A79D800E8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deuro/Pods-Deuro-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -419,14 +343,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		50B42F281A6A8EA300B05352 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SideMenu;
-			targetProxy = 50B42F271A6A8EA300B05352 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		50B9666B1A25E40E00208F2E /* Debug */ = {
@@ -532,7 +448,7 @@
 		};
 		50B9666E1A25E40E00208F2E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BD1D58EC12DA0094BAAE4A0 /* Pods-Deuro.debug.xcconfig */;
+			baseConfigurationReference = 7DB3452E422EDC1248757C18 /* Pods-Deuro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MA3FRWNL5H;
@@ -551,7 +467,7 @@
 		};
 		50B9666F1A25E40E00208F2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 882ECE8CF44659F7EE6603FB /* Pods-Deuro.release.xcconfig */;
+			baseConfigurationReference = D4C4F723FF1E3379112A01B4 /* Pods-Deuro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MA3FRWNL5H;
