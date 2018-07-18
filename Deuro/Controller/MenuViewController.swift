@@ -18,6 +18,10 @@ class MenuViewController: UITableViewController {
     weak var delegate: MenuViewControllerDelegate?
     var selectedItem = 0
     
+    override func viewDidLoad() {
+        tableView.tableFooterView = UIView()
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         

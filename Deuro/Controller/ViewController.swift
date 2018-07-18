@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
+    let urlArray = ["","http://ai.deuro.io", "http://sys.deuro.io", "http://dapp.deuro.io", "http://ai.deuro.io"]
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch (segue.identifier, segue.destination) {
         case (.some("presentMenu"), let menu as MenuViewController):
@@ -39,9 +41,8 @@ extension ViewController: MenuViewControllerDelegate {
         transitionPoint = point
         selectedIndex = index
         
-        print(selectedIndex)
         if (selectedIndex != 0) {
-            self.navigator.loadWebpageWith(url: "http://ai.deuro.io")
+            self.navigator.loadWebpageWith(url: urlArray[selectedIndex])
         } else {
             self.navigator.setupFirstPage()
         }

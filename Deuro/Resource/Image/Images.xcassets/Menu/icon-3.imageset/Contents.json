@@ -2,13 +2,13 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "icon-3.png"
+      "filename" : "icons8-mind-map-39.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "icon-3@2x.png"
+      "filename" : "icons8-mind-map-78.png",
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
