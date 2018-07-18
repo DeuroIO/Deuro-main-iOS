@@ -1,0 +1,6 @@
+framework module Pods_Deuro {
+  umbrella header "Pods-Deuro-umbrella.h"
+
+  export *
+  module * { export * }
+}
