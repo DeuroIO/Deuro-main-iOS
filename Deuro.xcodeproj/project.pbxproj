@@ -8,6 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		C0C7FD0620FFA3250052FD53 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7FD0520FFA3250052FD53 /* MainNavigationController.swift */; };
+		C0C7FD0C20FFD9400052FD53 /* AWCollectionViewSlidingDoorLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C7FD0B20FFD9400052FD53 /* AWCollectionViewSlidingDoorLayout.m */; };
+		C0C7FD1C20FFD95D0052FD53 /* photo-1445285303476-2f3b16d67b7a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD0E20FFD95D0052FD53 /* photo-1445285303476-2f3b16d67b7a.jpg */; };
+		C0C7FD1D20FFD95D0052FD53 /* photo-1431887773042-803ed52bed26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD0F20FFD95D0052FD53 /* photo-1431887773042-803ed52bed26.jpg */; };
+		C0C7FD1E20FFD95D0052FD53 /* photo-1446752875215-b2761acb3c5d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1020FFD95D0052FD53 /* photo-1446752875215-b2761acb3c5d.jpg */; };
+		C0C7FD1F20FFD95D0052FD53 /* photo-1446771326090-d910bfaf00f6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1120FFD95D0052FD53 /* photo-1446771326090-d910bfaf00f6.jpg */; };
+		C0C7FD2020FFD95D0052FD53 /* photo-1249182325215-d517de72c42d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1220FFD95D0052FD53 /* photo-1249182325215-d517de72c42d.jpg */; };
+		C0C7FD2120FFD95D0052FD53 /* photo-1443890923422-7819ed4101c0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1320FFD95D0052FD53 /* photo-1443890923422-7819ed4101c0.jpg */; };
+		C0C7FD2220FFD95D0052FD53 /* photo-1447877015176-3099cb49cd6a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1420FFD95D0052FD53 /* photo-1447877015176-3099cb49cd6a.jpg */; };
+		C0C7FD2320FFD95D0052FD53 /* photo-1446797376004-9352dfc9f789.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1520FFD95D0052FD53 /* photo-1446797376004-9352dfc9f789.jpg */; };
+		C0C7FD2420FFD95D0052FD53 /* photo-1449157291145-7efd050a4d0e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1620FFD95D0052FD53 /* photo-1449157291145-7efd050a4d0e.jpg */; };
+		C0C7FD2520FFD95D0052FD53 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1720FFD95D0052FD53 /* menu.png */; };
+		C0C7FD2620FFD95D0052FD53 /* photo-1448318440207-ef1893eb8ac0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1820FFD95D0052FD53 /* photo-1448318440207-ef1893eb8ac0.jpg */; };
+		C0C7FD2720FFD95D0052FD53 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1920FFD95D0052FD53 /* menu@2x.png */; };
+		C0C7FD2820FFD95D0052FD53 /* photo-1331975562098-bac8ded504c7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1A20FFD95D0052FD53 /* photo-1331975562098-bac8ded504c7.jpg */; };
+		C0C7FD2920FFD95D0052FD53 /* photo-1438190318100-06790c8b2e5a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD1B20FFD95D0052FD53 /* photo-1438190318100-06790c8b2e5a.jpg */; };
+		C0C7FD2F20FFD9CD0052FD53 /* GalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C7FD2C20FFD9CD0052FD53 /* GalleryCell.m */; };
+		C0C7FD3320FFDE820052FD53 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7FD3220FFDE820052FD53 /* FirstPageViewController.swift */; };
+		C0C7FD3520FFE3220052FD53 /* gallery.json in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD3420FFE3220052FD53 /* gallery.json */; };
+		C0C7FD3720FFE5920052FD53 /* galleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD3620FFE5920052FD53 /* galleryCell.xib */; };
 		D527A101E3BF9D807CC9609B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D527A8A79CD3995976B1E6E1 /* LaunchScreen.xib */; };
 		D527A20BFCB7C7B0E37A4763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D527A0056D698FE36A57118C /* Main.storyboard */; };
 		D527A57D9911754481704B6B /* CircularRevealAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527A13E48B18500949B7B96 /* CircularRevealAnimator.swift */; };
@@ -40,6 +59,28 @@
 		50B966521A25E40E00208F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DB3452E422EDC1248757C18 /* Pods-Deuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deuro/Pods-Deuro.debug.xcconfig"; sourceTree = "<group>"; };
 		C0C7FD0520FFA3250052FD53 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		C0C7FD0920FFD93F0052FD53 /* Deuro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Deuro-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0C7FD0A20FFD9400052FD53 /* AWCollectionViewSlidingDoorLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWCollectionViewSlidingDoorLayout.h; sourceTree = "<group>"; };
+		C0C7FD0B20FFD9400052FD53 /* AWCollectionViewSlidingDoorLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWCollectionViewSlidingDoorLayout.m; sourceTree = "<group>"; };
+		C0C7FD0E20FFD95D0052FD53 /* photo-1445285303476-2f3b16d67b7a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1445285303476-2f3b16d67b7a.jpg"; sourceTree = "<group>"; };
+		C0C7FD0F20FFD95D0052FD53 /* photo-1431887773042-803ed52bed26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1431887773042-803ed52bed26.jpg"; sourceTree = "<group>"; };
+		C0C7FD1020FFD95D0052FD53 /* photo-1446752875215-b2761acb3c5d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1446752875215-b2761acb3c5d.jpg"; sourceTree = "<group>"; };
+		C0C7FD1120FFD95D0052FD53 /* photo-1446771326090-d910bfaf00f6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1446771326090-d910bfaf00f6.jpg"; sourceTree = "<group>"; };
+		C0C7FD1220FFD95D0052FD53 /* photo-1249182325215-d517de72c42d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1249182325215-d517de72c42d.jpg"; sourceTree = "<group>"; };
+		C0C7FD1320FFD95D0052FD53 /* photo-1443890923422-7819ed4101c0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1443890923422-7819ed4101c0.jpg"; sourceTree = "<group>"; };
+		C0C7FD1420FFD95D0052FD53 /* photo-1447877015176-3099cb49cd6a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1447877015176-3099cb49cd6a.jpg"; sourceTree = "<group>"; };
+		C0C7FD1520FFD95D0052FD53 /* photo-1446797376004-9352dfc9f789.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1446797376004-9352dfc9f789.jpg"; sourceTree = "<group>"; };
+		C0C7FD1620FFD95D0052FD53 /* photo-1449157291145-7efd050a4d0e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1449157291145-7efd050a4d0e.jpg"; sourceTree = "<group>"; };
+		C0C7FD1720FFD95D0052FD53 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		C0C7FD1820FFD95D0052FD53 /* photo-1448318440207-ef1893eb8ac0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1448318440207-ef1893eb8ac0.jpg"; sourceTree = "<group>"; };
+		C0C7FD1920FFD95D0052FD53 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		C0C7FD1A20FFD95D0052FD53 /* photo-1331975562098-bac8ded504c7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1331975562098-bac8ded504c7.jpg"; sourceTree = "<group>"; };
+		C0C7FD1B20FFD95D0052FD53 /* photo-1438190318100-06790c8b2e5a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1438190318100-06790c8b2e5a.jpg"; sourceTree = "<group>"; };
+		C0C7FD2A20FFD9CD0052FD53 /* GalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryCell.h; sourceTree = "<group>"; };
+		C0C7FD2C20FFD9CD0052FD53 /* GalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryCell.m; sourceTree = "<group>"; };
+		C0C7FD3220FFDE820052FD53 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		C0C7FD3420FFE3220052FD53 /* gallery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gallery.json; sourceTree = "<group>"; };
+		C0C7FD3620FFE5920052FD53 /* galleryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = galleryCell.xib; sourceTree = "<group>"; };
 		D4C4F723FF1E3379112A01B4 /* Pods-Deuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Deuro/Pods-Deuro.release.xcconfig"; sourceTree = "<group>"; };
 		D527A0056D698FE36A57118C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D527A13E48B18500949B7B96 /* CircularRevealAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularRevealAnimator.swift; sourceTree = "<group>"; };
@@ -103,6 +144,7 @@
 		50B966501A25E40E00208F2E /* Deuro */ = {
 			isa = PBXGroup;
 			children = (
+				C0C7FD0720FFD9280052FD53 /* Library */,
 				50B966511A25E40E00208F2E /* Supporting Files */,
 				D527A3BCD5D6369AB1ACD0C3 /* Misc */,
 				D527AE40C58FD3F74535DE08 /* Extension */,
@@ -118,6 +160,57 @@
 				50B966521A25E40E00208F2E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0C7FD0720FFD9280052FD53 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C0C7FD0820FFD9370052FD53 /* AWCollectionViewSlidingDoors */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C0C7FD0820FFD9370052FD53 /* AWCollectionViewSlidingDoors */ = {
+			isa = PBXGroup;
+			children = (
+				C0C7FD3420FFE3220052FD53 /* gallery.json */,
+				C0C7FD3120FFD9D10052FD53 /* GalleryCell */,
+				C0C7FD0D20FFD95D0052FD53 /* assets */,
+				C0C7FD0A20FFD9400052FD53 /* AWCollectionViewSlidingDoorLayout.h */,
+				C0C7FD0B20FFD9400052FD53 /* AWCollectionViewSlidingDoorLayout.m */,
+			);
+			path = AWCollectionViewSlidingDoors;
+			sourceTree = "<group>";
+		};
+		C0C7FD0D20FFD95D0052FD53 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				C0C7FD0E20FFD95D0052FD53 /* photo-1445285303476-2f3b16d67b7a.jpg */,
+				C0C7FD0F20FFD95D0052FD53 /* photo-1431887773042-803ed52bed26.jpg */,
+				C0C7FD1020FFD95D0052FD53 /* photo-1446752875215-b2761acb3c5d.jpg */,
+				C0C7FD1120FFD95D0052FD53 /* photo-1446771326090-d910bfaf00f6.jpg */,
+				C0C7FD1220FFD95D0052FD53 /* photo-1249182325215-d517de72c42d.jpg */,
+				C0C7FD1320FFD95D0052FD53 /* photo-1443890923422-7819ed4101c0.jpg */,
+				C0C7FD1420FFD95D0052FD53 /* photo-1447877015176-3099cb49cd6a.jpg */,
+				C0C7FD1520FFD95D0052FD53 /* photo-1446797376004-9352dfc9f789.jpg */,
+				C0C7FD1620FFD95D0052FD53 /* photo-1449157291145-7efd050a4d0e.jpg */,
+				C0C7FD1720FFD95D0052FD53 /* menu.png */,
+				C0C7FD1820FFD95D0052FD53 /* photo-1448318440207-ef1893eb8ac0.jpg */,
+				C0C7FD1920FFD95D0052FD53 /* menu@2x.png */,
+				C0C7FD1A20FFD95D0052FD53 /* photo-1331975562098-bac8ded504c7.jpg */,
+				C0C7FD1B20FFD95D0052FD53 /* photo-1438190318100-06790c8b2e5a.jpg */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		C0C7FD3120FFD9D10052FD53 /* GalleryCell */ = {
+			isa = PBXGroup;
+			children = (
+				C0C7FD2A20FFD9CD0052FD53 /* GalleryCell.h */,
+				C0C7FD2C20FFD9CD0052FD53 /* GalleryCell.m */,
+				C0C7FD3620FFE5920052FD53 /* galleryCell.xib */,
+			);
+			path = GalleryCell;
 			sourceTree = "<group>";
 		};
 		D527A3BCD5D6369AB1ACD0C3 /* Misc */ = {
@@ -151,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				D527AD4045CEF0C845F9C597 /* MenuViewController.swift */,
+				C0C7FD3220FFDE820052FD53 /* FirstPageViewController.swift */,
 				C0C7FD0520FFA3250052FD53 /* MainNavigationController.swift */,
 				D527A483DF3A43722B868175 /* ViewController.swift */,
 			);
@@ -176,6 +270,7 @@
 		D527AFAC7BD85D0EC7A2118D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				C0C7FD0920FFD93F0052FD53 /* Deuro-Bridging-Header.h */,
 				D527A4842FD7B358BBB9038D /* Storyboard */,
 				D527AEF1DB8301BD76C34AAE /* Xib */,
 				D527A43293ADF757EFD527CD /* Image */,
@@ -220,7 +315,7 @@
 					50B9664D1A25E40E00208F2E = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = MA3FRWNL5H;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -256,9 +351,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C7FD2820FFD95D0052FD53 /* photo-1331975562098-bac8ded504c7.jpg in Resources */,
+				C0C7FD2120FFD95D0052FD53 /* photo-1443890923422-7819ed4101c0.jpg in Resources */,
+				C0C7FD3720FFE5920052FD53 /* galleryCell.xib in Resources */,
+				C0C7FD3520FFE3220052FD53 /* gallery.json in Resources */,
 				D527A20BFCB7C7B0E37A4763 /* Main.storyboard in Resources */,
+				C0C7FD2220FFD95D0052FD53 /* photo-1447877015176-3099cb49cd6a.jpg in Resources */,
+				C0C7FD2520FFD95D0052FD53 /* menu.png in Resources */,
 				D527A101E3BF9D807CC9609B /* LaunchScreen.xib in Resources */,
+				C0C7FD1F20FFD95D0052FD53 /* photo-1446771326090-d910bfaf00f6.jpg in Resources */,
+				C0C7FD1C20FFD95D0052FD53 /* photo-1445285303476-2f3b16d67b7a.jpg in Resources */,
+				C0C7FD2720FFD95D0052FD53 /* menu@2x.png in Resources */,
+				C0C7FD2020FFD95D0052FD53 /* photo-1249182325215-d517de72c42d.jpg in Resources */,
+				C0C7FD1D20FFD95D0052FD53 /* photo-1431887773042-803ed52bed26.jpg in Resources */,
 				D527AB5DDFE8C2F3C5FAF17D /* Images.xcassets in Resources */,
+				C0C7FD2420FFD95D0052FD53 /* photo-1449157291145-7efd050a4d0e.jpg in Resources */,
+				C0C7FD2920FFD95D0052FD53 /* photo-1438190318100-06790c8b2e5a.jpg in Resources */,
+				C0C7FD1E20FFD95D0052FD53 /* photo-1446752875215-b2761acb3c5d.jpg in Resources */,
+				C0C7FD2620FFD95D0052FD53 /* photo-1448318440207-ef1893eb8ac0.jpg in Resources */,
+				C0C7FD2320FFD95D0052FD53 /* photo-1446797376004-9352dfc9f789.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +448,11 @@
 			files = (
 				D527A8AB2910DEAFC8280DB3 /* AnimationDelegate.swift in Sources */,
 				D527ABFB0A09CCCD2CDA8D1F /* UITableViewCell.swift in Sources */,
+				C0C7FD3320FFDE820052FD53 /* FirstPageViewController.swift in Sources */,
 				C0C7FD0620FFA3250052FD53 /* MainNavigationController.swift in Sources */,
 				D527AF8942F06D055CB017CD /* MenuViewController.swift in Sources */,
+				C0C7FD2F20FFD9CD0052FD53 /* GalleryCell.m in Sources */,
+				C0C7FD0C20FFD9400052FD53 /* AWCollectionViewSlidingDoorLayout.m in Sources */,
 				D527ADAA92A06CB2A8B2A8CE /* ViewController.swift in Sources */,
 				D527A57D9911754481704B6B /* CircularRevealAnimator.swift in Sources */,
 				D527A9045F5ABFD082C88DE9 /* CircularRevealTransitionAnimator.swift in Sources */,
@@ -455,6 +569,7 @@
 			baseConfigurationReference = 7DB3452E422EDC1248757C18 /* Pods-Deuro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = MA3FRWNL5H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +580,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deuro.ios;
 				PRODUCT_NAME = Deuro;
+				SWIFT_OBJC_BRIDGING_HEADER = "Deuro/Resource/Deuro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -474,6 +591,7 @@
 			baseConfigurationReference = D4C4F723FF1E3379112A01B4 /* Pods-Deuro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = MA3FRWNL5H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,6 +602,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deuro.ios;
 				PRODUCT_NAME = Deuro;
+				SWIFT_OBJC_BRIDGING_HEADER = "Deuro/Resource/Deuro-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

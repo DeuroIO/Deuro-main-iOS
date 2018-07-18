@@ -289,44 +289,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XBN-Py-Y8m">
-                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="67" width="375" height="600"/>
                                 <connections>
                                     <segue destination="1Ly-xn-B06" kind="embed" identifier="embedNavigator" id="Z9O-zX-Gtq"/>
                                 </connections>
                             </containerView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2v-KG-d2D">
-                                <rect key="frame" x="10" y="25" width="40" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="6SX-NF-muO"/>
-                                    <constraint firstAttribute="width" constant="40" id="VZA-JB-jie"/>
-                                </constraints>
-                                <state key="normal" image="menu">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="hiP-lf-w9i" kind="show" identifier="presentMenu" id="08L-OR-Eo2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNH-GZ-N27">
-                                <rect key="frame" x="556" y="20" width="44" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="T1h-3X-FJa"/>
-                                    <constraint firstAttribute="width" constant="44" id="xFs-JY-le1"/>
-                                </constraints>
-                                <state key="normal" image="search">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2eu-AO-EUI">
+                                <rect key="frame" x="0.0" y="23" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Deuro" id="4Z6-wB-yhM">
+                                        <barButtonItem key="leftBarButtonItem" image="menu" style="plain" id="Vhh-A4-SMd">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <segue destination="hiP-lf-w9i" kind="show" identifier="presentMenu" id="f30-dT-a1p"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="P2v-KG-d2D" firstAttribute="leading" secondItem="wyo-T7-0Ag" secondAttribute="leading" constant="10" id="L80-U3-mhH"/>
-                            <constraint firstItem="RNH-GZ-N27" firstAttribute="top" secondItem="h6O-se-dFS" secondAttribute="bottom" id="OD6-Uu-Io8"/>
-                            <constraint firstItem="XBN-Py-Y8m" firstAttribute="top" secondItem="h6O-se-dFS" secondAttribute="bottom" constant="50" id="YY0-OH-3St"/>
+                            <constraint firstItem="2eu-AO-EUI" firstAttribute="bottom" secondItem="XBN-Py-Y8m" secondAttribute="top" id="BTU-To-hhc"/>
+                            <constraint firstItem="2eu-AO-EUI" firstAttribute="trailing" secondItem="XBN-Py-Y8m" secondAttribute="trailing" id="Pjm-5b-H9s"/>
+                            <constraint firstItem="XBN-Py-Y8m" firstAttribute="top" secondItem="h6O-se-dFS" secondAttribute="bottom" constant="47" id="YY0-OH-3St"/>
+                            <constraint firstItem="2eu-AO-EUI" firstAttribute="leading" secondItem="XBN-Py-Y8m" secondAttribute="leading" id="eCB-RC-JK5"/>
                             <constraint firstItem="XBN-Py-Y8m" firstAttribute="bottom" secondItem="pkG-vq-jsW" secondAttribute="top" id="eLI-5O-4V6"/>
                             <constraint firstItem="XBN-Py-Y8m" firstAttribute="leading" secondItem="wyo-T7-0Ag" secondAttribute="leading" id="nCJ-nt-rCj"/>
-                            <constraint firstAttribute="trailing" secondItem="RNH-GZ-N27" secondAttribute="trailing" constant="-225" id="nOc-eB-5N0"/>
-                            <constraint firstItem="P2v-KG-d2D" firstAttribute="top" secondItem="h6O-se-dFS" secondAttribute="bottom" constant="5" id="pJc-Yp-bp5"/>
                             <constraint firstAttribute="trailing" secondItem="XBN-Py-Y8m" secondAttribute="trailing" id="viU-SB-BW5"/>
                         </constraints>
                     </view>
@@ -350,6 +339,51 @@
             </objects>
             <point key="canvasLocation" x="-762" y="-1396"/>
         </scene>
+        <!--First Page View Controller-->
+        <scene sceneID="KVh-y9-cLc">
+            <objects>
+                <viewController storyboardIdentifier="FirstPageViewController" id="iVR-Ya-dQn" customClass="FirstPageViewController" customModule="Deuro" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vii-HE-x5v"/>
+                        <viewControllerLayoutGuide type="bottom" id="4rv-jA-CLO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VGF-Jn-VJo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Qpw-yD-DOa">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewLayout key="collectionViewLayout" id="5Qh-Zp-QfK" customClass="AWCollectionViewSlidingDoorLayout"/>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="iVR-Ya-dQn" id="7kq-qc-OeN"/>
+                                    <outlet property="delegate" destination="iVR-Ya-dQn" id="COg-ln-SjF"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Qpw-yD-DOa" secondAttribute="trailing" id="1FS-Tt-rD1"/>
+                            <constraint firstItem="Qpw-yD-DOa" firstAttribute="leading" secondItem="VGF-Jn-VJo" secondAttribute="leading" id="9Vp-7A-ZKB"/>
+                            <constraint firstItem="Qpw-yD-DOa" firstAttribute="top" secondItem="vii-HE-x5v" secondAttribute="bottom" id="Gff-Ts-GSD"/>
+                            <constraint firstItem="Qpw-yD-DOa" firstAttribute="bottom" secondItem="4rv-jA-CLO" secondAttribute="top" id="ICn-mG-fMO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="Qpw-yD-DOa" id="RtU-Cj-d8n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vQv-mY-O1W" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="1AN-OT-MIb">
+                    <connections>
+                        <action selector="showMenu:" destination="iVR-Ya-dQn" id="2ZB-dw-DeW"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="253.59999999999999" y="-1366.8665667166417"/>
+        </scene>
     </scenes>
     <resources>
         <image name="icon-1" width="24" height="24"/>
@@ -361,6 +395,5 @@
         <image name="icon-7" width="37" height="38"/>
         <image name="icon-9" width="38" height="34"/>
         <image name="menu" width="18" height="12"/>
-        <image name="search" width="17" height="17"/>
     </resources>
 </document>

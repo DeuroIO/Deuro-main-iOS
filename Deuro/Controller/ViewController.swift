@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     fileprivate var selectedIndex = 0
     fileprivate var transitionPoint: CGPoint!
-    fileprivate var navigator: UINavigationController!
+    fileprivate var navigator: MainNavigationController!
     
     lazy fileprivate var menuAnimator : MenuTransitionAnimator! = MenuTransitionAnimator(mode: .presentation, shouldPassEventsOutsideMenu: false) { [unowned self] in
         self.dismiss(animated: true, completion: nil)
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             menu.delegate = self
             menu.transitioningDelegate = self
             menu.modalPresentationStyle = .custom
-        case (.some("embedNavigator"), let navigator as UINavigationController):
+        case (.some("embedNavigator"), let navigator as MainNavigationController):
             self.navigator = navigator
             self.navigator.delegate = self
         default:
@@ -38,6 +38,13 @@ extension ViewController: MenuViewControllerDelegate {
     func menu(_: MenuViewController, didSelectItemAt index: Int, at point: CGPoint) {
         transitionPoint = point
         selectedIndex = index
+        
+        print(selectedIndex)
+        if (selectedIndex != 0) {
+            self.navigator.loadWebpageWith(url: "http://ai.deuro.io")
+        } else {
+            self.navigator.setupFirstPage()
+        }
         
         DispatchQueue.main.async {
             self.dismiss(animated: true, completion: nil)

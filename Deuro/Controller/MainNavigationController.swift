@@ -11,10 +11,28 @@ import AXWebViewController
 
 class MainNavigationController: UINavigationController {
     let indicator: UIActivityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
+    var webVC: AXWebViewController? = nil
+    
+    func setupFirstPage() {
+        self.setToolbarHidden(true, animated: true)
+        let content = storyboard!.instantiateViewController(withIdentifier: "FirstPageViewController") as! FirstPageViewController
+        self.setViewControllers([content], animated: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let webVC = AXWebViewController(address: "http://ai.deuro.io")
+        setupFirstPage()
+        // Do any additional setup after loading the view.
+    }
+
+}
+
+extension MainNavigationController {
+    func loadWebpageWith(url: String) {
+        webVC = AXWebViewController(address: "http://ai.deuro.io")
+        guard let webVC = webVC else {
+            return
+        }
         webVC.showsToolBar = true
         webVC.delegate = self
         webVC.navigationType = .toolItem
@@ -24,16 +42,16 @@ class MainNavigationController: UINavigationController {
         navigationController?.pushViewController(webVC, animated: true)
         self.setViewControllers([webVC], animated: true)
         
-        
+        indicator.removeFromSuperview()
+        indicator.stopAnimating()
         indicator.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
         indicator.center = view.center
         self.view.addSubview(indicator)
         self.view.bringSubview(toFront: indicator)
         indicator.startAnimating()
-        // Do any additional setup after loading the view.
     }
-
 }
+
 extension MainNavigationController: AXWebViewControllerDelegate {
     func webViewControllerDidFinishLoad(_ webViewController: AXWebViewController) {
         indicator.stopAnimating()
