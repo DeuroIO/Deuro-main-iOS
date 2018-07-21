@@ -5,6 +5,8 @@
 //
 
 import UIKit
+import Fabric
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -12,6 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func applicationDidBecomeActive(_ application: UIApplication) {
+        Fabric.with([Crashlytics.self])
+        
         let telegramButton = UIButton(type: .custom)
         guard let windowRect = window?.frame else {
             return

@@ -292,6 +292,7 @@
 				5008F06B1A6D0B4500D6B4EE /* Copy Files */,
 				453EDA71DFF6C29096125C72 /* [CP] Embed Pods Frameworks */,
 				4C3DF0C0A4766C5F80AC1FF3 /* [CP] Copy Pods Resources */,
+				C02BD9122102DDA0004CA202 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -420,6 +421,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deuro/Pods-Deuro-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		C02BD9122102DDA0004CA202 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" e8bc8ddfc58d3f38d03e64a8c53fcf9cbf4adc64 5483cbf13d43ab7658f9037d0fc3cc75d227f1f138f1b2b7e58b96c3ca83be17";
 		};
 		D64E69EF36DD1BB975B5F1A1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

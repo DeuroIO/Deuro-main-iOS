@@ -9,6 +9,9 @@ PODS:
     - AXNavigationBackItemInjection
     - AXPracticalHUD
     - NJKWebViewProgress
+  - Crashlytics (3.10.5):
+    - Fabric (~> 1.7.9)
+  - Fabric (1.7.9)
   - NJKWebViewProgress (0.2.3):
     - NJKWebViewProgress/Core (= 0.2.3)
     - NJKWebViewProgress/ProgressView (= 0.2.3)
@@ -18,6 +21,8 @@ PODS:
 
 DEPENDENCIES:
   - AXWebViewController
+  - Crashlytics
+  - Fabric
   - YALSideMenu
 
 SPEC CHECKSUMS:
@@ -26,9 +31,11 @@ SPEC CHECKSUMS:
   AXNavigationBackItemInjection: efe0446967f3cbcc85a9118decd1e145138912dd
   AXPracticalHUD: 16c3ff6d97c061e80e80897b2e6ac8e330079472
   AXWebViewController: 96566c473fce2806f4da696132b31777f5404c9f
+  Crashlytics: 7f2e38d302d9da96475b3d64d86fb29e31a542b7
+  Fabric: a2917d3895e4c1569b9c3170de7320ea1b1e6661
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
   YALSideMenu: 4d6b90ea44dcdded18a99e46b676e4ad51d9c6bb
 
-PODFILE CHECKSUM: ad4785ad3d29ee7fd59c3542842832c87ba8e9a9
+PODFILE CHECKSUM: cdcf259bd7e5263238e72268a40cea50b45f62e3
 
 COCOAPODS: 1.4.0

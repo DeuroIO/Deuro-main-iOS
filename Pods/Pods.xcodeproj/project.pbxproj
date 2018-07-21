@@ -7,80 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007E193E9FDA1A3A1D8617C1C78C7DDA /* NJKWebViewProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1762C171B5A453972E0DE0C7733E08EB /* NJKWebViewProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		007E193E9FDA1A3A1D8617C1C78C7DDA /* NJKWebViewProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F34AB5CCEEA60FD0076280D97CD13B61 /* NJKWebViewProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0232B4D396A8FF344D367180742A705F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E92BA2BF98D32668B242B50B48BB914 /* UIKit.framework */; };
-		040BA58A217A48B76531C0AD9978E773 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4D9AE473FB44A0166ACAB0866B3D29 /* NJKWebViewProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		040BA58A217A48B76531C0AD9978E773 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E8B278A2FF14BD89D10EEFD85363B6 /* NJKWebViewProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0741A7C568D2DF9C17D85DC49A316178 /* Pods-Deuro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8399149C10FD4EC9FC74F971E894A08C /* Pods-Deuro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A8E3662BAD6757102F6B997F82D5EA8 /* AXWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F26BACF765F1C062F785C7378DA9D8 /* AXWebViewControllerActivity.m */; };
+		0A8E3662BAD6757102F6B997F82D5EA8 /* AXWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F99EB781B4AC7674B72D242163536 /* AXWebViewControllerActivity.m */; };
 		0B2CE6FA5A74AEC6117EE881C80C2608 /* Aspects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D0657FB44A887C3BFA2EB3FE9B773E /* Aspects.framework */; };
-		0C2D9095AF58399A96CA67B998E88046 /* AXPopNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF90C318153DE1E609DB9AFAD2DFF8 /* AXPopNavigationController.m */; };
-		11B6FE8146804D4E3187564839771311 /* AXWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A87349304775C8C12EBA3A9FE6675B9D /* AXWebViewController.bundle */; };
-		1215D7E033A55DC07483D9327D0F08AD /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 441E516344D5081BE48F13894CC6398D /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		164AF055D12F70E4081E7EE1A2F72CBC /* AXWebViewControllerActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = A97EE5B9DA9EF4FD610D36019BA21913 /* AXWebViewControllerActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		168A20E924481C3CF28ECAB3E5D92474 /* AXBreachedAnnulusIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF50D0AA7A63B635EF37D9308ECC803B /* AXBreachedAnnulusIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C2D9095AF58399A96CA67B998E88046 /* AXPopNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F09212C9AD27466DC7EB52CF170C1D /* AXPopNavigationController.m */; };
+		11B6FE8146804D4E3187564839771311 /* AXWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B74F834C1F3C731B8CB81A572DE9C803 /* AXWebViewController.bundle */; };
+		1215D7E033A55DC07483D9327D0F08AD /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 8546B703DC7AF587C865A7FA79131B80 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		164AF055D12F70E4081E7EE1A2F72CBC /* AXWebViewControllerActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = C7291E8243389A0D517517553EEFAD86 /* AXWebViewControllerActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		168A20E924481C3CF28ECAB3E5D92474 /* AXBreachedAnnulusIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBB35B779C689B32C1E3BD4331D1EB6 /* AXBreachedAnnulusIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1932E9B1816655EE32C6B9673018DCF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158526BC6A42A3FC308ED1D842ECD8 /* Foundation.framework */; };
-		1940835D23ED4933E2D6E6E1860C7CE8 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 12508EC2C56DF87CE192FD54847F8553 /* Aspects.m */; };
-		21EAFE159F75EDC103049F5E0C5B6B88 /* AXNavigationBackItemInjection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E9EB9F4C7CAD2B312733F841CF7478 /* AXNavigationBackItemInjection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1940835D23ED4933E2D6E6E1860C7CE8 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = E938875A4BA81A2DAEF477EAD82B4057 /* Aspects.m */; };
+		21EAFE159F75EDC103049F5E0C5B6B88 /* AXNavigationBackItemInjection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B913C28F8A065B9D960C07FD05ACB96A /* AXNavigationBackItemInjection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A1D20BE3C38E46852CCAF56CE012403 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD28E73BCB88A0A8AD70030992261FFE /* WebKit.framework */; };
-		2F006722C020F47FDCE06EF276063D0B /* AXPracticalHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6866F5F5300DE935DC85AA667E0F35 /* AXPracticalHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31E25A89AE00D917C74B50E5408D3F35 /* AXWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F939B4366416C51B2A991202E991544 /* AXWebViewController-dummy.m */; };
-		335702356AFCE627D16DB32F19082ED7 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36028D6A969829E025CCC29FF520AF75 /* Menu.swift */; };
-		3B62A7D10A8155CAA291C31E01073623 /* AXWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8A9ACB13DB474686298FE9FB7FB209 /* AXWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C8414591A7A81B0515CE6206771A539 /* AXPracticalHUDContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4CA2950D0CAF84C15FFCE129CB32BC /* AXPracticalHUDContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CF5DB95CD26BBA0F920806D0CE06FC6 /* AXPracticalHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3B79016F93025E2E53DBFA7E907979 /* AXPracticalHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F006722C020F47FDCE06EF276063D0B /* AXPracticalHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2C5F24BFC49212647BCF1E881BA106 /* AXPracticalHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31E25A89AE00D917C74B50E5408D3F35 /* AXWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C7CDAADD050DF9033083ABC9592F7C /* AXWebViewController-dummy.m */; };
+		335702356AFCE627D16DB32F19082ED7 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E36C24ECA50973F9985B191CD2784 /* Menu.swift */; };
+		3B62A7D10A8155CAA291C31E01073623 /* AXWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7138C87547AF5FC8A3AEBFC7A491F6F5 /* AXWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C8414591A7A81B0515CE6206771A539 /* AXPracticalHUDContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21858FA06D52E6137327BC963ED8E6CC /* AXPracticalHUDContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CF5DB95CD26BBA0F920806D0CE06FC6 /* AXPracticalHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 089AB85FDDDC3E202153B08D8385CC79 /* AXPracticalHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EAD07C098DAE9B077C8FB68983D963C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158526BC6A42A3FC308ED1D842ECD8 /* Foundation.framework */; };
-		3EFAFEAA4F0D9F731DC79C5FEF359F02 /* AXIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC78EE1A3A85D04B8838C0E0732BDC46 /* AXIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F489180443D3954FFB6375047F3FDF0 /* AXPracticalHUDAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F067D94597E47F099386B17C166F047 /* AXPracticalHUDAnimator.m */; };
+		3EFAFEAA4F0D9F731DC79C5FEF359F02 /* AXIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E5E934CF68E01A8F7849C6AA010994 /* AXIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F489180443D3954FFB6375047F3FDF0 /* AXPracticalHUDAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8822701C8FF027C0614F4779928FBE0B /* AXPracticalHUDAnimator.m */; };
 		4395FFFA3DA88D80DD91C3A690F39BB2 /* AXIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC50479A84C56606AB464CBA77A5E82 /* AXIndicatorView.framework */; };
-		448355D7F3BFB5F0F01BD8603BFCEE94 /* AXIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5573721979EBF87725EA91DDE1B124FE /* AXIndicatorView-dummy.m */; };
-		49210871D2BC57D1E7CC65117F353BF2 /* AXSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4BA9C88F666ED805519015F2A4CAD7 /* AXSecurityPolicy.m */; };
-		4AF26DC8497DDE93AD0DD1E5B30EC848 /* AXIndicatorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80278FB6C0F46DF19A279A16EB430257 /* AXIndicatorView.bundle */; };
-		4C207F258FEA7023D730020E268317D3 /* AXActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC76504CC2905DCEB97AB44A420344E4 /* AXActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		448355D7F3BFB5F0F01BD8603BFCEE94 /* AXIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33ADECFF59E40970D6F59E6C3CD1F25A /* AXIndicatorView-dummy.m */; };
+		49210871D2BC57D1E7CC65117F353BF2 /* AXSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F818C29F63BDDD037E222AEC8CD6F8 /* AXSecurityPolicy.m */; };
+		4AF26DC8497DDE93AD0DD1E5B30EC848 /* AXIndicatorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78F139049860229FFFED9F577505FD91 /* AXIndicatorView.bundle */; };
+		4C207F258FEA7023D730020E268317D3 /* AXActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 573761DDC27CEA0CDAF0A35BC9564BF1 /* AXActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		526368E8FC99A161A55C7B82E80897E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158526BC6A42A3FC308ED1D842ECD8 /* Foundation.framework */; };
 		5465DC0376AC41C17F15F00AA394453D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E92BA2BF98D32668B242B50B48BB914 /* UIKit.framework */; };
-		6395079DB1CFAF1F697775704F84DB50 /* AXNavigationBackItemInjection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA1EDEF0C610E5819E1191FD5BB85D /* AXNavigationBackItemInjection-dummy.m */; };
-		653DF2DEFA33824E5A61ABE9538222DF /* MenuItemsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1BDF43B54DD783507314332215A23C /* MenuItemsAnimator.swift */; };
-		697BAB41B4B841C3CBAC8B2B3C4F4014 /* AXSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 85556112E10B65B4080C47355F487FDE /* AXSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B20EB95E5226A05E77DD5AB5BC45DB5 /* AXGradientProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE63E850F1E00B44884A7655EFD8148 /* AXGradientProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6C0AE120601D3E6948AA12BBBEFE092E /* AXPracticalHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4337BC5BA43A473BC39A813AFE2A92D3 /* AXPracticalHUD-dummy.m */; };
-		70E3A5347D410E11EEB7BE407B07F0DA /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 554E08AA9C8F9F5B0F221A90804ACB3C /* NJKWebViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7229B182A392FF577FA24236AD3FBA56 /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170927E2F308FB5294EFBB97E5F878AA /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		734E3E4A1931B0C96D4AC539B0A645E7 /* AXGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F1425AC76BC61636D280B151DD3B /* AXGradientProgressView.m */; };
-		798554DC826CDA8FFF2668C7D3DB5DD6 /* AXSpinningWaitCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C0054B48AAF9DAB40242C8E57E5800 /* AXSpinningWaitCursor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6395079DB1CFAF1F697775704F84DB50 /* AXNavigationBackItemInjection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B31275D6CDA968B7DC85F58C072BAE2D /* AXNavigationBackItemInjection-dummy.m */; };
+		653DF2DEFA33824E5A61ABE9538222DF /* MenuItemsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3285E8CAF877F53C1A05F1B17E9E524 /* MenuItemsAnimator.swift */; };
+		697BAB41B4B841C3CBAC8B2B3C4F4014 /* AXSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 925AFDF3873A567DFACD96EC424A2FD5 /* AXSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B20EB95E5226A05E77DD5AB5BC45DB5 /* AXGradientProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CF62D3CA39462CAEAD1AB2FA667E9D /* AXGradientProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C0AE120601D3E6948AA12BBBEFE092E /* AXPracticalHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A156DC9ADFE8F57F9751813096CC7 /* AXPracticalHUD-dummy.m */; };
+		70E3A5347D410E11EEB7BE407B07F0DA /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD7CB0C31E0E779C8F07EF030200821 /* NJKWebViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7229B182A392FF577FA24236AD3FBA56 /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D8796F2E5F2EA9E96CE1E604774348 /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E3E4A1931B0C96D4AC539B0A645E7 /* AXGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4258A9E83E24132447C4425D01996 /* AXGradientProgressView.m */; };
+		798554DC826CDA8FFF2668C7D3DB5DD6 /* AXSpinningWaitCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = D42555D9A321BB9B7E7462B402E08503 /* AXSpinningWaitCursor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A859F0B5CB080C1C10E46BAEB817DF0 /* Pods-Deuro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 363BEDF13ED3C58DD67B2A5B56999887 /* Pods-Deuro-dummy.m */; };
 		7B177941D3271EFE0332DB4C92164DBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E92BA2BF98D32668B242B50B48BB914 /* UIKit.framework */; };
-		82B218B9BCD5B8A78DBF3EB576800805 /* AXPracticalHUDAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F0A91765D817FEB150750FC3597C3B /* AXPracticalHUDAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82B218B9BCD5B8A78DBF3EB576800805 /* AXPracticalHUDAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF274D1710C6C0EFD7379A4B7D68F83 /* AXPracticalHUDAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		885576A87D787D549034FB05A7E22196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158526BC6A42A3FC308ED1D842ECD8 /* Foundation.framework */; };
 		8FE639D6CD88AAAC8047161387721F5B /* NJKWebViewProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B135746F44C877E4BC8270A8A68D84 /* NJKWebViewProgress.framework */; };
 		9D0D198CCD9372ED241A1B34D230029A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E92BA2BF98D32668B242B50B48BB914 /* UIKit.framework */; };
-		9D4A81165CBCB47191FE6F7DC8EDA2BD /* AXBarProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F24C7751A2180A4BD75E9FB20D1B0B2 /* AXBarProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9F908B73F202CFD2A354F232CD3B3B2F /* AXBarProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67915848A7BD85E82A0E209C78045801 /* AXBarProgressView.m */; };
-		A4F362E8AA053F8B337CDC2FCAE9C893 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FF08396A7FBABC9BB5E9A451BF6C56 /* NJKWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACB31A363B72367FE7F21985A750142D /* AXPracticalHUDContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE5950A2308B2A5906D4F7FA3AF14B5 /* AXPracticalHUDContentView.m */; };
-		B772D5703D4F1D328E51438C2C2F118E /* AXSpinningWaitCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 627834BF618F26929A2A91D5E005C100 /* AXSpinningWaitCursor.m */; };
+		9D4A81165CBCB47191FE6F7DC8EDA2BD /* AXBarProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7268BEE2EA4E40A983946DC802C248F4 /* AXBarProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F908B73F202CFD2A354F232CD3B3B2F /* AXBarProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE67D6681C62C76B3BC3AC4F2A687508 /* AXBarProgressView.m */; };
+		A4F362E8AA053F8B337CDC2FCAE9C893 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6DAB5709770E4F595EC447F195252C /* NJKWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB31A363B72367FE7F21985A750142D /* AXPracticalHUDContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F80507EAFB8F70C24E3E853AF225D4 /* AXPracticalHUDContentView.m */; };
+		B772D5703D4F1D328E51438C2C2F118E /* AXSpinningWaitCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD11EC44A34E19DB1D77D27676B398 /* AXSpinningWaitCursor.m */; };
 		B7BB2094F4D33BDB44491762EBB47E56 /* AXPracticalHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CB1BA9E7899F738DF708F152C6A89C /* AXPracticalHUD.framework */; };
 		B7C4E57A9B643A7EF1C82133347EAD7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158526BC6A42A3FC308ED1D842ECD8 /* Foundation.framework */; };
 		B9281C48EB7D2E658B0A0C911B34D080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158526BC6A42A3FC308ED1D842ECD8 /* Foundation.framework */; };
 		BAD7BC6BE55B00B6259AE6A96C6D4F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158526BC6A42A3FC308ED1D842ECD8 /* Foundation.framework */; };
-		BF4407013EA0BA34C734015028A4E023 /* AXCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA7BB6539DF338D88DEE1BE805ACE7 /* AXCircleProgressView.m */; };
-		C11AEF4D4F3AE7328E875E53EF6EC770 /* AXPopNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0DD52E449D7FF8957249F52F496D12 /* AXPopNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4407013EA0BA34C734015028A4E023 /* AXCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6351372C243AC5EB3829006E42403D34 /* AXCircleProgressView.m */; };
+		C11AEF4D4F3AE7328E875E53EF6EC770 /* AXPopNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D3772FAF68B25AC69FA04D5390C41B /* AXPopNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9AF57ACA0A14D66E5E0B2820740A981 /* AXNavigationBackItemInjection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9553E32AE1996ECDC57C9FAE6B2C423D /* AXNavigationBackItemInjection.framework */; };
-		CE7A02535BB77A4A1B23C24033DE7DF2 /* AXActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A681DD227225F21DA6651DD832EDD7 /* AXActivityIndicatorView.m */; };
-		CFE9862B19367296C67BEC9D26B0FCED /* YALSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F112ABECA71E130EFB9811773C8FD0F /* YALSideMenu-dummy.m */; };
-		D39C949A424949824E9D1723693DD090 /* AXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A1B3BFF784CF8318EC63DE73FE5FA6 /* AXWebViewController.m */; };
-		D57817AB391EC96CBC999F9AA269A359 /* AXPracticalHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C28390D427615834844D8671EC94FB05 /* AXPracticalHUD.bundle */; };
-		D7E7660686E840CD5F02AE3512CAFFDC /* AXWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 86362C2F3174D6C2425ADC7CC10C50B3 /* AXWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8C0C602EEDAE5575DE0DA22912D3D97 /* AXPracticalHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C0DAB7CDBC6B189DEA243B35B1038 /* AXPracticalHUD.m */; };
-		DA43390B4E8E0C637A640EA3C95F6622 /* AXIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D020E7DF97F4FDDED860D31C68339649 /* AXIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD7DC576FFF48AC210B4FB0F033CF4D3 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC16D66EF93FB72539CEA56D82232E1 /* NJKWebViewProgress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CE7A02535BB77A4A1B23C24033DE7DF2 /* AXActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEC068A36B01CB3DD6B3B95BFCBB392 /* AXActivityIndicatorView.m */; };
+		CFE9862B19367296C67BEC9D26B0FCED /* YALSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102D250BB98517C36BB1335E2F60D61 /* YALSideMenu-dummy.m */; };
+		D39C949A424949824E9D1723693DD090 /* AXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711DB9D8E75E20E33DF2B06F957329AF /* AXWebViewController.m */; };
+		D57817AB391EC96CBC999F9AA269A359 /* AXPracticalHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B76BA3B5E8925C307F41A60735FB2BB /* AXPracticalHUD.bundle */; };
+		D7E7660686E840CD5F02AE3512CAFFDC /* AXWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E831AD40F25C31C2037A1DEC1F8337 /* AXWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C0C602EEDAE5575DE0DA22912D3D97 /* AXPracticalHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4D154B23C6F0352591AF0B8F2B22B /* AXPracticalHUD.m */; };
+		DA43390B4E8E0C637A640EA3C95F6622 /* AXIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52437C80B0AD46D80FBEA004A36803E9 /* AXIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7DC576FFF48AC210B4FB0F033CF4D3 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = C6035E6D4CA32F1E0A3CEC9D8774E302 /* NJKWebViewProgress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		DE04B67CEA513DF32BD04EDCBE73F664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158526BC6A42A3FC308ED1D842ECD8 /* Foundation.framework */; };
-		E644792F87F40F39CBF33DC1F4CCF71C /* AXBreachedAnnulusIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 309044CD685B9D84DD508CD556DB6D77 /* AXBreachedAnnulusIndicatorView.m */; };
-		E6EAD4080753FC0E77986D7C9266AB85 /* NJKWebViewProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B339A7D0E2A3EFFE819CB25B23956EB /* NJKWebViewProgress-dummy.m */; };
+		E644792F87F40F39CBF33DC1F4CCF71C /* AXBreachedAnnulusIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 317F06FBD2A72240ACF6F6ADDAC056FA /* AXBreachedAnnulusIndicatorView.m */; };
+		E6EAD4080753FC0E77986D7C9266AB85 /* NJKWebViewProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A90B3E2FD81A4DA6CA465AA9CBC739 /* NJKWebViewProgress-dummy.m */; };
 		EAA519793C65B144CEC6520EFD5C601E /* AXIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC50479A84C56606AB464CBA77A5E82 /* AXIndicatorView.framework */; };
-		ED234428820C1AE44CBAFF5524BD04CC /* AXCircleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0CCA8864BFFEE52CBC4086094DB500 /* AXCircleProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F0AE7A90DC17757A4799C5FB36EEB83A /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E9DC84D6692B59EC3A499677413A9D /* Aspects-dummy.m */; };
-		FDC0E9B813AD2CF1413359EC6D33C804 /* YALSideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E1E7BAF87880FF334405BCEBF70B5E /* YALSideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFED20BE6EC8ADF4365786A23200CDEA /* MenuTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD262F0DD23818C6D1BE4C4F3155D7E4 /* MenuTransitionAnimator.swift */; };
+		ED234428820C1AE44CBAFF5524BD04CC /* AXCircleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61560BB3014C5BC4671B3AACD0B314F3 /* AXCircleProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0AE7A90DC17757A4799C5FB36EEB83A /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D83B35567772FF2CC939C678D006446 /* Aspects-dummy.m */; };
+		FDC0E9B813AD2CF1413359EC6D33C804 /* YALSideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9B29D10FC7A20D4834D8BE4D56DA99 /* YALSideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFED20BE6EC8ADF4365786A23200CDEA /* MenuTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6F0E22BEDBD4A304A2A20CCC487D5A /* MenuTransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,112 +178,123 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0102D250BB98517C36BB1335E2F60D61 /* YALSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YALSideMenu-dummy.m"; sourceTree = "<group>"; };
 		07549031FB7C26896C8E226F5C4CE6DC /* NJKWebViewProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NJKWebViewProgress.framework; path = NJKWebViewProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D87D00E09B90ADDE34D454288D4DC34 /* NJKWebViewProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NJKWebViewProgress.modulemap; sourceTree = "<group>"; };
-		0F939B4366416C51B2A991202E991544 /* AXWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXWebViewController-dummy.m"; sourceTree = "<group>"; };
-		120EB0C7155105338D7CB60F4601E5A3 /* YALSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YALSideMenu-prefix.pch"; sourceTree = "<group>"; };
-		12508EC2C56DF87CE192FD54847F8553 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
-		170927E2F308FB5294EFBB97E5F878AA /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
-		1762C171B5A453972E0DE0C7733E08EB /* NJKWebViewProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJKWebViewProgress-umbrella.h"; sourceTree = "<group>"; };
+		089AB85FDDDC3E202153B08D8385CC79 /* AXPracticalHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXPracticalHUD.h; path = AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.h; sourceTree = "<group>"; };
+		08F09212C9AD27466DC7EB52CF170C1D /* AXPopNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXPopNavigationController.m; path = AXNavigationBackItemInjection/AXNavigationBackItemInjection/AXPopNavigationController.m; sourceTree = "<group>"; };
+		0D1EBFC0C1A3BE4C7B52FE690CF01564 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		10A90B3E2FD81A4DA6CA465AA9CBC739 /* NJKWebViewProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NJKWebViewProgress-dummy.m"; sourceTree = "<group>"; };
+		113E857E428F2F042D2BBEA32AA5B632 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139820765CB32C3DAD2FEC630ACC6B53 /* AXIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXIndicatorView.modulemap; sourceTree = "<group>"; };
+		1A5B07618D4E634B9AD35DBBE2294D32 /* AXIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXIndicatorView-prefix.pch"; sourceTree = "<group>"; };
 		1AAC8F3D8EE86C823A11FD5902D9FF10 /* AXWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXWebViewController.framework; path = AXWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B0DD52E449D7FF8957249F52F496D12 /* AXPopNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXPopNavigationController.h; path = AXNavigationBackItemInjection/AXNavigationBackItemInjection/AXPopNavigationController.h; sourceTree = "<group>"; };
-		1F067D94597E47F099386B17C166F047 /* AXPracticalHUDAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXPracticalHUDAnimator.m; path = AXPracticalHUD/AXPracticalHUD/Animators/AXPracticalHUDAnimator.m; sourceTree = "<group>"; };
-		26F26BACF765F1C062F785C7378DA9D8 /* AXWebViewControllerActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXWebViewControllerActivity.m; path = AXWebViewController/AXWebViewController/Activity/AXWebViewControllerActivity.m; sourceTree = "<group>"; };
-		27E9EB9F4C7CAD2B312733F841CF7478 /* AXNavigationBackItemInjection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXNavigationBackItemInjection-umbrella.h"; sourceTree = "<group>"; };
+		1BB4D154B23C6F0352591AF0B8F2B22B /* AXPracticalHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXPracticalHUD.m; path = AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.m; sourceTree = "<group>"; };
+		1D7A156DC9ADFE8F57F9751813096CC7 /* AXPracticalHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXPracticalHUD-dummy.m"; sourceTree = "<group>"; };
+		1D83B35567772FF2CC939C678D006446 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		1E5FEE8F80F2236955DA3E77CC9AD9C7 /* YALSideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YALSideMenu.modulemap; sourceTree = "<group>"; };
+		1FCA46A1054D404CEA253A25F1E6FF6F /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Aspects.modulemap; sourceTree = "<group>"; };
+		21858FA06D52E6137327BC963ED8E6CC /* AXPracticalHUDContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXPracticalHUDContentView.h; path = AXPracticalHUD/AXPracticalHUD/ContentView/AXPracticalHUDContentView.h; sourceTree = "<group>"; };
+		24A1854D0C98095E8BA42F70268FCDDD /* AXNavigationBackItemInjection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXNavigationBackItemInjection-prefix.pch"; sourceTree = "<group>"; };
+		24ADF96B0EDA2289BD5207B70E2827E9 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		29E831AD40F25C31C2037A1DEC1F8337 /* AXWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXWebViewController.h; path = AXWebViewController/AXWebViewController/AXWebViewController.h; sourceTree = "<group>"; };
 		2A0552D516F54102DFC4038D8127AAA7 /* Pods-Deuro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Deuro.modulemap"; sourceTree = "<group>"; };
-		2C9CB3F6A401F505C1C0A80425B059CF /* AXNavigationBackItemInjection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXNavigationBackItemInjection-prefix.pch"; sourceTree = "<group>"; };
+		2BD7CB0C31E0E779C8F07EF030200821 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = "<group>"; };
 		302EFBB4BA0844FD0D52D26C7873EB0D /* Pods-Deuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Deuro.debug.xcconfig"; sourceTree = "<group>"; };
-		309044CD685B9D84DD508CD556DB6D77 /* AXBreachedAnnulusIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXBreachedAnnulusIndicatorView.m; path = AXIndicatorView/Classes/AXBreachedAnnulusIndicatorView.m; sourceTree = "<group>"; };
-		3129C916FDD5A9A89C814B970AEAD001 /* AXWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXWebViewController.xcconfig; sourceTree = "<group>"; };
+		317F06FBD2A72240ACF6F6ADDAC056FA /* AXBreachedAnnulusIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXBreachedAnnulusIndicatorView.m; path = AXIndicatorView/Classes/AXBreachedAnnulusIndicatorView.m; sourceTree = "<group>"; };
+		33ADECFF59E40970D6F59E6C3CD1F25A /* AXIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXIndicatorView-dummy.m"; sourceTree = "<group>"; };
 		354DC308F7A9ED13C4154438FBED018E /* AXIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXIndicatorView.framework; path = AXIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36028D6A969829E025CCC29FF520AF75 /* Menu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = SideMenu/Menu.swift; sourceTree = "<group>"; };
 		363BEDF13ED3C58DD67B2A5B56999887 /* Pods-Deuro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Deuro-dummy.m"; sourceTree = "<group>"; };
-		36C0054B48AAF9DAB40242C8E57E5800 /* AXSpinningWaitCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXSpinningWaitCursor.h; path = AXIndicatorView/Classes/AXSpinningWaitCursor.h; sourceTree = "<group>"; };
-		3A43CE6B3F3C86259AB3ABC45C4471F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4337BC5BA43A473BC39A813AFE2A92D3 /* AXPracticalHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXPracticalHUD-dummy.m"; sourceTree = "<group>"; };
-		441E516344D5081BE48F13894CC6398D /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
-		4DC16D66EF93FB72539CEA56D82232E1 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = NJKWebViewProgress/NJKWebViewProgress.m; sourceTree = "<group>"; };
+		37E5EE1E963F3805A43AA30BB4C6C635 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39CF62D3CA39462CAEAD1AB2FA667E9D /* AXGradientProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXGradientProgressView.h; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXGradientProgressView.h; sourceTree = "<group>"; };
+		3BE4258A9E83E24132447C4425D01996 /* AXGradientProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXGradientProgressView.m; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXGradientProgressView.m; sourceTree = "<group>"; };
+		3C27F98677CE9C68A2B153BB9FFF070D /* AXPracticalHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXPracticalHUD.xcconfig; sourceTree = "<group>"; };
+		3D6F0E22BEDBD4A304A2A20CCC487D5A /* MenuTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuTransitionAnimator.swift; path = SideMenu/MenuTransitionAnimator.swift; sourceTree = "<group>"; };
+		3F9B29D10FC7A20D4834D8BE4D56DA99 /* YALSideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YALSideMenu-umbrella.h"; sourceTree = "<group>"; };
 		4E92BA2BF98D32668B242B50B48BB914 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4FE63E850F1E00B44884A7655EFD8148 /* AXGradientProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXGradientProgressView.h; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXGradientProgressView.h; sourceTree = "<group>"; };
-		5149F1425AC76BC61636D280B151DD3B /* AXGradientProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXGradientProgressView.m; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXGradientProgressView.m; sourceTree = "<group>"; };
-		54E34498F0289E491B8F742F5A097C77 /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Aspects.modulemap; sourceTree = "<group>"; };
-		554E08AA9C8F9F5B0F221A90804ACB3C /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = "<group>"; };
-		5573721979EBF87725EA91DDE1B124FE /* AXIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXIndicatorView-dummy.m"; sourceTree = "<group>"; };
-		569685D358DC847C7662E372DC4755F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60A1B3BFF784CF8318EC63DE73FE5FA6 /* AXWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXWebViewController.m; path = AXWebViewController/AXWebViewController/AXWebViewController.m; sourceTree = "<group>"; };
-		627834BF618F26929A2A91D5E005C100 /* AXSpinningWaitCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXSpinningWaitCursor.m; path = AXIndicatorView/Classes/AXSpinningWaitCursor.m; sourceTree = "<group>"; };
+		4FF274D1710C6C0EFD7379A4B7D68F83 /* AXPracticalHUDAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXPracticalHUDAnimator.h; path = AXPracticalHUD/AXPracticalHUD/Animators/AXPracticalHUDAnimator.h; sourceTree = "<group>"; };
+		52437C80B0AD46D80FBEA004A36803E9 /* AXIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		53CA3372916D316FC1DA211F3470AE06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54283F834B6F011D2B14BBA5A536CF4D /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		55C1795555CA272623AFD676DE42B47C /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		56E5E934CF68E01A8F7849C6AA010994 /* AXIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXIndicatorView.h; path = AXIndicatorView/Classes/AXIndicatorView.h; sourceTree = "<group>"; };
+		573761DDC27CEA0CDAF0A35BC9564BF1 /* AXActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXActivityIndicatorView.h; path = AXIndicatorView/Classes/AXActivityIndicatorView.h; sourceTree = "<group>"; };
+		5E25F90A01EA92F08DBBF3ECE2169D95 /* YALSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YALSideMenu.xcconfig; sourceTree = "<group>"; };
+		61560BB3014C5BC4671B3AACD0B314F3 /* AXCircleProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXCircleProgressView.h; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXCircleProgressView.h; sourceTree = "<group>"; };
+		6351372C243AC5EB3829006E42403D34 /* AXCircleProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXCircleProgressView.m; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXCircleProgressView.m; sourceTree = "<group>"; };
+		6485A175A8E32F3A7DF45C54FC832AD7 /* AXNavigationBackItemInjection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXNavigationBackItemInjection.xcconfig; sourceTree = "<group>"; };
 		655FA57E0AC8377BE01121D251DDF4EE /* Pods-Deuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Deuro.release.xcconfig"; sourceTree = "<group>"; };
-		6770FFA95465B7B2CB64C1444E857C29 /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
-		67915848A7BD85E82A0E209C78045801 /* AXBarProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXBarProgressView.m; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXBarProgressView.m; sourceTree = "<group>"; };
-		698D843519A6DE072C5B3DC1BEFDBDE7 /* YALSideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YALSideMenu.modulemap; sourceTree = "<group>"; };
+		68B8D0045FEC6C28B288A01B7C476717 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
 		69D0657FB44A887C3BFA2EB3FE9B773E /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A644AEC2EFCFB3370D6C94B713A8FF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A7942A9F09702E3AD081DECE6B7738A /* AXPracticalHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXPracticalHUD-prefix.pch"; sourceTree = "<group>"; };
-		6BBA7BB6539DF338D88DEE1BE805ACE7 /* AXCircleProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXCircleProgressView.m; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXCircleProgressView.m; sourceTree = "<group>"; };
-		6F4F393FC8685278DB7321DDE4ABE0E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD0AB77E4727A5E5F6943AE3B4573AF /* AXWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXWebViewController.xcconfig; sourceTree = "<group>"; };
+		711DB9D8E75E20E33DF2B06F957329AF /* AXWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXWebViewController.m; path = AXWebViewController/AXWebViewController/AXWebViewController.m; sourceTree = "<group>"; };
+		7138C87547AF5FC8A3AEBFC7A491F6F5 /* AXWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXWebViewController-umbrella.h"; sourceTree = "<group>"; };
+		7268BEE2EA4E40A983946DC802C248F4 /* AXBarProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXBarProgressView.h; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXBarProgressView.h; sourceTree = "<group>"; };
 		72B135746F44C877E4BC8270A8A68D84 /* NJKWebViewProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NJKWebViewProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AB2A1BDD95E13DAD400D7D5732B80E /* Pods-Deuro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Deuro-frameworks.sh"; sourceTree = "<group>"; };
-		7A6866F5F5300DE935DC85AA667E0F35 /* AXPracticalHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXPracticalHUD-umbrella.h"; sourceTree = "<group>"; };
-		7B339A7D0E2A3EFFE819CB25B23956EB /* NJKWebViewProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NJKWebViewProgress-dummy.m"; sourceTree = "<group>"; };
-		7B4CA2950D0CAF84C15FFCE129CB32BC /* AXPracticalHUDContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXPracticalHUDContentView.h; path = AXPracticalHUD/AXPracticalHUD/ContentView/AXPracticalHUDContentView.h; sourceTree = "<group>"; };
-		7F112ABECA71E130EFB9811773C8FD0F /* YALSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YALSideMenu-dummy.m"; sourceTree = "<group>"; };
-		7F6978A0F10E922A1150D0739CBBADBA /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
-		7FE5950A2308B2A5906D4F7FA3AF14B5 /* AXPracticalHUDContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXPracticalHUDContentView.m; path = AXPracticalHUD/AXPracticalHUD/ContentView/AXPracticalHUDContentView.m; sourceTree = "<group>"; };
-		80278FB6C0F46DF19A279A16EB430257 /* AXIndicatorView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AXIndicatorView.bundle; path = AXIndicatorView/Classes/AXIndicatorView.bundle; sourceTree = "<group>"; };
+		78F139049860229FFFED9F577505FD91 /* AXIndicatorView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AXIndicatorView.bundle; path = AXIndicatorView/Classes/AXIndicatorView.bundle; sourceTree = "<group>"; };
+		7B10B71545AFE10A67E89B6256700466 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8399149C10FD4EC9FC74F971E894A08C /* Pods-Deuro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Deuro-umbrella.h"; sourceTree = "<group>"; };
-		84A681DD227225F21DA6651DD832EDD7 /* AXActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXActivityIndicatorView.m; path = AXIndicatorView/Classes/AXActivityIndicatorView.m; sourceTree = "<group>"; };
-		85556112E10B65B4080C47355F487FDE /* AXSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXSecurityPolicy.h; path = AXWebViewController/AXWebViewController/Security/AXSecurityPolicy.h; sourceTree = "<group>"; };
-		857540ECBFFAD4CBDB85E7E4DD1DA825 /* AXPracticalHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXPracticalHUD.modulemap; sourceTree = "<group>"; };
-		86362C2F3174D6C2425ADC7CC10C50B3 /* AXWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXWebViewController.h; path = AXWebViewController/AXWebViewController/AXWebViewController.h; sourceTree = "<group>"; };
-		89C887CC1A5F0CE884655D098823F0E1 /* AXIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXIndicatorView.xcconfig; sourceTree = "<group>"; };
-		8BF7299284AC306AE205BA5E08F48E57 /* AXIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXIndicatorView-prefix.pch"; sourceTree = "<group>"; };
-		8C1BDF43B54DD783507314332215A23C /* MenuItemsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemsAnimator.swift; path = SideMenu/MenuItemsAnimator.swift; sourceTree = "<group>"; };
+		8546B703DC7AF587C865A7FA79131B80 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		8822701C8FF027C0614F4779928FBE0B /* AXPracticalHUDAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXPracticalHUDAnimator.m; path = AXPracticalHUD/AXPracticalHUD/Animators/AXPracticalHUDAnimator.m; sourceTree = "<group>"; };
+		8991CB02B415B81BCF2D34B2675B6318 /* AXWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXWebViewController.modulemap; sourceTree = "<group>"; };
 		8C4B71B64D7515D5CC9FBECCC3CEEEC6 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aspects.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90FF08396A7FBABC9BB5E9A451BF6C56 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = NJKWebViewProgress/NJKWebViewProgress.h; sourceTree = "<group>"; };
+		8E5AB42E797BAC95837E66544AE0D5AC /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		925AFDF3873A567DFACD96EC424A2FD5 /* AXSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXSecurityPolicy.h; path = AXWebViewController/AXWebViewController/Security/AXSecurityPolicy.h; sourceTree = "<group>"; };
+		92D8796F2E5F2EA9E96CE1E604774348 /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
+		92F574719FE625740B76E36001F94280 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E9F45BD9125258BC8A299DB880BCA8 /* AXPracticalHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXPracticalHUD-prefix.pch"; sourceTree = "<group>"; };
 		9553E32AE1996ECDC57C9FAE6B2C423D /* AXNavigationBackItemInjection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AXNavigationBackItemInjection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A53F477ABC031D7A04A3B5BA246E3E /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = YALSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9936CFAC5EBA83601BD82E78F722E380 /* AXWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXWebViewController.modulemap; sourceTree = "<group>"; };
-		9C4D9AE473FB44A0166ACAB0866B3D29 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = NJKWebViewProgress/NJKWebViewProgressView.m; sourceTree = "<group>"; };
-		9D1220846FA0F75A102B263F618B18BD /* AXNavigationBackItemInjection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXNavigationBackItemInjection.modulemap; sourceTree = "<group>"; };
-		9DDA1EDEF0C610E5819E1191FD5BB85D /* AXNavigationBackItemInjection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXNavigationBackItemInjection-dummy.m"; sourceTree = "<group>"; };
-		9DDF90C318153DE1E609DB9AFAD2DFF8 /* AXPopNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXPopNavigationController.m; path = AXNavigationBackItemInjection/AXNavigationBackItemInjection/AXPopNavigationController.m; sourceTree = "<group>"; };
-		9F24C7751A2180A4BD75E9FB20D1B0B2 /* AXBarProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXBarProgressView.h; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXBarProgressView.h; sourceTree = "<group>"; };
-		A29AFC81D14FC588504B7BEDC4EFED7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D3772FAF68B25AC69FA04D5390C41B /* AXPopNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXPopNavigationController.h; path = AXNavigationBackItemInjection/AXNavigationBackItemInjection/AXPopNavigationController.h; sourceTree = "<group>"; };
+		9B76BA3B5E8925C307F41A60735FB2BB /* AXPracticalHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AXPracticalHUD.bundle; path = AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.bundle; sourceTree = "<group>"; };
+		A2704CA8923A934A994718D479941E10 /* AXPracticalHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXPracticalHUD.modulemap; sourceTree = "<group>"; };
+		A67E36C24ECA50973F9985B191CD2784 /* Menu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = SideMenu/Menu.swift; sourceTree = "<group>"; };
 		A77D9D7AAAA346594274F3A1D61E201F /* AXPracticalHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXPracticalHUD.framework; path = AXPracticalHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A87349304775C8C12EBA3A9FE6675B9D /* AXWebViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AXWebViewController.bundle; path = AXWebViewController/AXWebViewController/AXWebViewController.bundle; sourceTree = "<group>"; };
-		A97EE5B9DA9EF4FD610D36019BA21913 /* AXWebViewControllerActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXWebViewControllerActivity.h; path = AXWebViewController/AXWebViewController/Activity/AXWebViewControllerActivity.h; sourceTree = "<group>"; };
-		A9BCC9390671F42BA2215458E36A55C7 /* AXNavigationBackItemInjection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXNavigationBackItemInjection.xcconfig; sourceTree = "<group>"; };
 		AAC50479A84C56606AB464CBA77A5E82 /* AXIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AXIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC8A9ACB13DB474686298FE9FB7FB209 /* AXWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXWebViewController-umbrella.h"; sourceTree = "<group>"; };
-		AE17B0DD6A9F19DEC76D8BE60B9BDCAC /* NJKWebViewProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NJKWebViewProgress.xcconfig; sourceTree = "<group>"; };
 		B1B441C4250F5EDE8BA16999C4DDB9F7 /* Pods-Deuro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Deuro-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B1CB1BA9E7899F738DF708F152C6A89C /* AXPracticalHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AXPracticalHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31275D6CDA968B7DC85F58C072BAE2D /* AXNavigationBackItemInjection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXNavigationBackItemInjection-dummy.m"; sourceTree = "<group>"; };
 		B5C85FE7FC68E7636A41AB077EA5629D /* Pods_Deuro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Deuro.framework; path = "Pods-Deuro.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC10B8B33743C7F1BABC8F39FE456421 /* AXPracticalHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXPracticalHUD.xcconfig; sourceTree = "<group>"; };
-		BC76504CC2905DCEB97AB44A420344E4 /* AXActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXActivityIndicatorView.h; path = AXIndicatorView/Classes/AXActivityIndicatorView.h; sourceTree = "<group>"; };
-		BD0CCA8864BFFEE52CBC4086094DB500 /* AXCircleProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXCircleProgressView.h; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXCircleProgressView.h; sourceTree = "<group>"; };
-		BF50D0AA7A63B635EF37D9308ECC803B /* AXBreachedAnnulusIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXBreachedAnnulusIndicatorView.h; path = AXIndicatorView/Classes/AXBreachedAnnulusIndicatorView.h; sourceTree = "<group>"; };
-		C060C1C2AE48752591E10CA49DCC4D19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C28390D427615834844D8671EC94FB05 /* AXPracticalHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AXPracticalHUD.bundle; path = AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.bundle; sourceTree = "<group>"; };
-		C693E662D434AFAD4DD9443C2567E2F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD262F0DD23818C6D1BE4C4F3155D7E4 /* MenuTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuTransitionAnimator.swift; path = SideMenu/MenuTransitionAnimator.swift; sourceTree = "<group>"; };
+		B74F834C1F3C731B8CB81A572DE9C803 /* AXWebViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AXWebViewController.bundle; path = AXWebViewController/AXWebViewController/AXWebViewController.bundle; sourceTree = "<group>"; };
+		B913C28F8A065B9D960C07FD05ACB96A /* AXNavigationBackItemInjection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXNavigationBackItemInjection-umbrella.h"; sourceTree = "<group>"; };
+		BC2C5F24BFC49212647BCF1E881BA106 /* AXPracticalHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXPracticalHUD-umbrella.h"; sourceTree = "<group>"; };
+		BD99F0A4D9A74FF83905824FA57B6E04 /* AXIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXIndicatorView.xcconfig; sourceTree = "<group>"; };
+		BFBB35B779C689B32C1E3BD4331D1EB6 /* AXBreachedAnnulusIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXBreachedAnnulusIndicatorView.h; path = AXIndicatorView/Classes/AXBreachedAnnulusIndicatorView.h; sourceTree = "<group>"; };
+		C0F818C29F63BDDD037E222AEC8CD6F8 /* AXSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXSecurityPolicy.m; path = AXWebViewController/AXWebViewController/Security/AXSecurityPolicy.m; sourceTree = "<group>"; };
+		C6035E6D4CA32F1E0A3CEC9D8774E302 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = NJKWebViewProgress/NJKWebViewProgress.m; sourceTree = "<group>"; };
+		C7291E8243389A0D517517553EEFAD86 /* AXWebViewControllerActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXWebViewControllerActivity.h; path = AXWebViewController/AXWebViewController/Activity/AXWebViewControllerActivity.h; sourceTree = "<group>"; };
+		C884AEC930E7A063F6067964DF1A2A50 /* AXNavigationBackItemInjection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXNavigationBackItemInjection.modulemap; sourceTree = "<group>"; };
+		C979FD211455F0EF9E94782341C9BBF4 /* AXWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		C9C7CDAADD050DF9033083ABC9592F7C /* AXWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXWebViewController-dummy.m"; sourceTree = "<group>"; };
+		CC6DAB5709770E4F595EC447F195252C /* NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = NJKWebViewProgress/NJKWebViewProgress.h; sourceTree = "<group>"; };
 		CD28E73BCB88A0A8AD70030992261FFE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		D020E7DF97F4FDDED860D31C68339649 /* AXIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXIndicatorView-umbrella.h"; sourceTree = "<group>"; };
-		D05985FCFC2627E30BD90B641F2E2FA3 /* AXIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXIndicatorView.modulemap; sourceTree = "<group>"; };
-		D0E1E7BAF87880FF334405BCEBF70B5E /* YALSideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YALSideMenu-umbrella.h"; sourceTree = "<group>"; };
+		D350E03C250ADBC886B586E1916D2FF3 /* NJKWebViewProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NJKWebViewProgress.xcconfig; sourceTree = "<group>"; };
+		D40843444F3E174FB106D881777E92A6 /* YALSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YALSideMenu-prefix.pch"; sourceTree = "<group>"; };
+		D42555D9A321BB9B7E7462B402E08503 /* AXSpinningWaitCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXSpinningWaitCursor.h; path = AXIndicatorView/Classes/AXSpinningWaitCursor.h; sourceTree = "<group>"; };
+		D57081EFC1BB6A0600CA0FE308505CF2 /* NJKWebViewProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJKWebViewProgress-prefix.pch"; sourceTree = "<group>"; };
+		D5F80507EAFB8F70C24E3E853AF225D4 /* AXPracticalHUDContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXPracticalHUDContentView.m; path = AXPracticalHUD/AXPracticalHUD/ContentView/AXPracticalHUDContentView.m; sourceTree = "<group>"; };
 		D83CB25655675753C471B51015B3E607 /* AXNavigationBackItemInjection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXNavigationBackItemInjection.framework; path = AXNavigationBackItemInjection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D91C0DAB7CDBC6B189DEA243B35B1038 /* AXPracticalHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXPracticalHUD.m; path = AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.m; sourceTree = "<group>"; };
-		DA71F5995965D2F7D42B9E5E99F5BFD5 /* NJKWebViewProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJKWebViewProgress-prefix.pch"; sourceTree = "<group>"; };
-		DB4BA9C88F666ED805519015F2A4CAD7 /* AXSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXSecurityPolicy.m; path = AXWebViewController/AXWebViewController/Security/AXSecurityPolicy.m; sourceTree = "<group>"; };
-		DC78EE1A3A85D04B8838C0E0732BDC46 /* AXIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXIndicatorView.h; path = AXIndicatorView/Classes/AXIndicatorView.h; sourceTree = "<group>"; };
-		E0F0A91765D817FEB150750FC3597C3B /* AXPracticalHUDAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXPracticalHUDAnimator.h; path = AXPracticalHUD/AXPracticalHUD/Animators/AXPracticalHUDAnimator.h; sourceTree = "<group>"; };
+		DAE44A1954F04F70AEA5184B59E3DEB4 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		DCEC068A36B01CB3DD6B3B95BFCBB392 /* AXActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXActivityIndicatorView.m; path = AXIndicatorView/Classes/AXActivityIndicatorView.m; sourceTree = "<group>"; };
+		DE67D6681C62C76B3BC3AC4F2A687508 /* AXBarProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXBarProgressView.m; path = AXPracticalHUD/AXPracticalHUD/ProgressViews/AXBarProgressView.m; sourceTree = "<group>"; };
+		E1810AC6D989D1211C1EF0C2A20730DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2E3EE8FCFD8E8896BCB0A489E161515 /* Pods-Deuro-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Deuro-resources.sh"; sourceTree = "<group>"; };
-		EA3B79016F93025E2E53DBFA7E907979 /* AXPracticalHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXPracticalHUD.h; path = AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.h; sourceTree = "<group>"; };
-		F3C2E82A8FA12BEEA22CE9845245B165 /* YALSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YALSideMenu.xcconfig; sourceTree = "<group>"; };
-		F7E9DC84D6692B59EC3A499677413A9D /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
-		F86D3AF46D4C82BDF239F61BC0DFB1A5 /* AXWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		E3285E8CAF877F53C1A05F1B17E9E524 /* MenuItemsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemsAnimator.swift; path = SideMenu/MenuItemsAnimator.swift; sourceTree = "<group>"; };
+		E52A7D5BB8355051C4BAC92989CB3D4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E935FEBF92CB206A87128DA2F721F8DA /* NJKWebViewProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NJKWebViewProgress.modulemap; sourceTree = "<group>"; };
+		E938875A4BA81A2DAEF477EAD82B4057 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		EAEFCF95A0D7FE1BC5FCF2DDB016C922 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		EB48E9AC4AC296C7DBF09EC4CB9FAB27 /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		EC9F99EB781B4AC7674B72D242163536 /* AXWebViewControllerActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXWebViewControllerActivity.m; path = AXWebViewController/AXWebViewController/Activity/AXWebViewControllerActivity.m; sourceTree = "<group>"; };
+		F0EF65E5D45FF6DE4729620A54D00434 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C798A3273CC95B179CC46C888B2F5B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		F34AB5CCEEA60FD0076280D97CD13B61 /* NJKWebViewProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJKWebViewProgress-umbrella.h"; sourceTree = "<group>"; };
+		F5E8B278A2FF14BD89D10EEFD85363B6 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = NJKWebViewProgress/NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		F8FD11EC44A34E19DB1D77D27676B398 /* AXSpinningWaitCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXSpinningWaitCursor.m; path = AXIndicatorView/Classes/AXSpinningWaitCursor.m; sourceTree = "<group>"; };
+		F9DDCFB0BBB2692B788A2FB98AC220F0 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 		FA158526BC6A42A3FC308ED1D842ECD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FAD887E586D06251D894C5368F326CB2 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
 		FDB7C18E06B471C6F6793DD080BFE794 /* Pods-Deuro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Deuro-acknowledgements.plist"; sourceTree = "<group>"; };
 		FF294162CB9CC2836C5A2B4A1D6BF876 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -367,55 +378,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0029BFC6AFB8F9A391F50559CBC8EAA2 /* Support Files */ = {
+		1B094B30BADF09429E84B572A63AD235 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9D1220846FA0F75A102B263F618B18BD /* AXNavigationBackItemInjection.modulemap */,
-				A9BCC9390671F42BA2215458E36A55C7 /* AXNavigationBackItemInjection.xcconfig */,
-				9DDA1EDEF0C610E5819E1191FD5BB85D /* AXNavigationBackItemInjection-dummy.m */,
-				2C9CB3F6A401F505C1C0A80425B059CF /* AXNavigationBackItemInjection-prefix.pch */,
-				27E9EB9F4C7CAD2B312733F841CF7478 /* AXNavigationBackItemInjection-umbrella.h */,
-				6A644AEC2EFCFB3370D6C94B713A8FF0 /* Info.plist */,
+				B8FCD1E5F49BAB051E8EFF3A2A0A7760 /* Aspects */,
+				9361EC26A3BC08165AB4C557180F92CD /* AXIndicatorView */,
+				5B0E45425F934DFB79BB9181EF92F3B3 /* AXNavigationBackItemInjection */,
+				7FA8F235309CBC7525B63534D91F1027 /* AXPracticalHUD */,
+				F1624CBD48FE626FCFF786EB41A6D995 /* AXWebViewController */,
+				C3AE3CB5BAF941CC8F4696B0E9656FEA /* Crashlytics */,
+				EA53C29B47B10503C2FF6CC53365694A /* Fabric */,
+				646660355B2C5CA60DFBF59AC40F178E /* NJKWebViewProgress */,
+				3E2C020CBF985EF80741D349759DD17D /* YALSideMenu */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AXNavigationBackItemInjection";
-			sourceTree = "<group>";
-		};
-		0DE90D7300F1C76537EE64E878C1CFF0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				54E34498F0289E491B8F742F5A097C77 /* Aspects.modulemap */,
-				7F6978A0F10E922A1150D0739CBBADBA /* Aspects.xcconfig */,
-				F7E9DC84D6692B59EC3A499677413A9D /* Aspects-dummy.m */,
-				6770FFA95465B7B2CB64C1444E857C29 /* Aspects-prefix.pch */,
-				170927E2F308FB5294EFBB97E5F878AA /* Aspects-umbrella.h */,
-				569685D358DC847C7662E372DC4755F2 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Aspects";
-			sourceTree = "<group>";
-		};
-		23EFC184B665A1376492062740EB9605 /* ProgressView */ = {
-			isa = PBXGroup;
-			children = (
-				554E08AA9C8F9F5B0F221A90804ACB3C /* NJKWebViewProgressView.h */,
-				9C4D9AE473FB44A0166ACAB0866B3D29 /* NJKWebViewProgressView.m */,
-			);
-			name = ProgressView;
-			sourceTree = "<group>";
-		};
-		28A4F0ED152865440ACE74CA8998273A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				857540ECBFFAD4CBDB85E7E4DD1DA825 /* AXPracticalHUD.modulemap */,
-				BC10B8B33743C7F1BABC8F39FE456421 /* AXPracticalHUD.xcconfig */,
-				4337BC5BA43A473BC39A813AFE2A92D3 /* AXPracticalHUD-dummy.m */,
-				6A7942A9F09702E3AD081DECE6B7738A /* AXPracticalHUD-prefix.pch */,
-				7A6866F5F5300DE935DC85AA667E0F35 /* AXPracticalHUD-umbrella.h */,
-				A29AFC81D14FC588504B7BEDC4EFED7B /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AXPracticalHUD";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		2A0250E899891C20CBFC74F3AF2BB450 /* iOS */ = {
@@ -426,6 +402,18 @@
 				CD28E73BCB88A0A8AD70030992261FFE /* WebKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E2C020CBF985EF80741D349759DD17D /* YALSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A67E36C24ECA50973F9985B191CD2784 /* Menu.swift */,
+				E3285E8CAF877F53C1A05F1B17E9E524 /* MenuItemsAnimator.swift */,
+				3D6F0E22BEDBD4A304A2A20CCC487D5A /* MenuTransitionAnimator.swift */,
+				F0D070901F3D629E4675F560E4B71EC4 /* Support Files */,
+			);
+			name = YALSideMenu;
+			path = YALSideMenu;
 			sourceTree = "<group>";
 		};
 		3EBFA4E8CB16635D37E1FEBDF5DE4FF3 /* Frameworks */ = {
@@ -441,64 +429,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		424730E0C91D22CF08EC467CE2DD8C96 /* Resources */ = {
+		5B0E45425F934DFB79BB9181EF92F3B3 /* AXNavigationBackItemInjection */ = {
 			isa = PBXGroup;
 			children = (
-				A87349304775C8C12EBA3A9FE6675B9D /* AXWebViewController.bundle */,
+				99D3772FAF68B25AC69FA04D5390C41B /* AXPopNavigationController.h */,
+				08F09212C9AD27466DC7EB52CF170C1D /* AXPopNavigationController.m */,
+				66A713E42F493BC29DA26469FED4EC39 /* Support Files */,
 			);
-			name = Resources;
+			name = AXNavigationBackItemInjection;
+			path = AXNavigationBackItemInjection;
 			sourceTree = "<group>";
 		};
-		629193AA4FB62277AFD4B10B4607DE47 /* AXWebViewController */ = {
+		63F9D4BFC7DC63195F6437022434CA46 /* ProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				85556112E10B65B4080C47355F487FDE /* AXSecurityPolicy.h */,
-				DB4BA9C88F666ED805519015F2A4CAD7 /* AXSecurityPolicy.m */,
-				86362C2F3174D6C2425ADC7CC10C50B3 /* AXWebViewController.h */,
-				60A1B3BFF784CF8318EC63DE73FE5FA6 /* AXWebViewController.m */,
-				A97EE5B9DA9EF4FD610D36019BA21913 /* AXWebViewControllerActivity.h */,
-				26F26BACF765F1C062F785C7378DA9D8 /* AXWebViewControllerActivity.m */,
-				424730E0C91D22CF08EC467CE2DD8C96 /* Resources */,
-				861E9580018E909273351C72AF909724 /* Support Files */,
+				2BD7CB0C31E0E779C8F07EF030200821 /* NJKWebViewProgressView.h */,
+				F5E8B278A2FF14BD89D10EEFD85363B6 /* NJKWebViewProgressView.m */,
 			);
-			name = AXWebViewController;
-			path = AXWebViewController;
+			name = ProgressView;
 			sourceTree = "<group>";
 		};
-		6439EA5C69C74358182E2F0B030936DE /* Support Files */ = {
+		646660355B2C5CA60DFBF59AC40F178E /* NJKWebViewProgress */ = {
 			isa = PBXGroup;
 			children = (
-				C060C1C2AE48752591E10CA49DCC4D19 /* Info.plist */,
-				0D87D00E09B90ADDE34D454288D4DC34 /* NJKWebViewProgress.modulemap */,
-				AE17B0DD6A9F19DEC76D8BE60B9BDCAC /* NJKWebViewProgress.xcconfig */,
-				7B339A7D0E2A3EFFE819CB25B23956EB /* NJKWebViewProgress-dummy.m */,
-				DA71F5995965D2F7D42B9E5E99F5BFD5 /* NJKWebViewProgress-prefix.pch */,
-				1762C171B5A453972E0DE0C7733E08EB /* NJKWebViewProgress-umbrella.h */,
+				F42424C364AADAEF8B43C234F93FFC02 /* Core */,
+				63F9D4BFC7DC63195F6437022434CA46 /* ProgressView */,
+				83AB794E1C8E2A4DDD048B24221BB849 /* Support Files */,
+			);
+			name = NJKWebViewProgress;
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+		66A713E42F493BC29DA26469FED4EC39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C884AEC930E7A063F6067964DF1A2A50 /* AXNavigationBackItemInjection.modulemap */,
+				6485A175A8E32F3A7DF45C54FC832AD7 /* AXNavigationBackItemInjection.xcconfig */,
+				B31275D6CDA968B7DC85F58C072BAE2D /* AXNavigationBackItemInjection-dummy.m */,
+				24A1854D0C98095E8BA42F70268FCDDD /* AXNavigationBackItemInjection-prefix.pch */,
+				B913C28F8A065B9D960C07FD05ACB96A /* AXNavigationBackItemInjection-umbrella.h */,
+				E52A7D5BB8355051C4BAC92989CB3D4B /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/NJKWebViewProgress";
+			path = "../Target Support Files/AXNavigationBackItemInjection";
 			sourceTree = "<group>";
 		};
-		6FBBE19C40EBEDA60C491C583606AB3D /* Resources */ = {
+		70737740D801AD8147C5FEAE840DAECD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				80278FB6C0F46DF19A279A16EB430257 /* AXIndicatorView.bundle */,
+				EAEFCF95A0D7FE1BC5FCF2DDB016C922 /* Fabric.framework */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		7CEAF3A26A4E4FEFEBD46D9C1CC9FAFD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3A43CE6B3F3C86259AB3ABC45C4471F3 /* Info.plist */,
-				698D843519A6DE072C5B3DC1BEFDBDE7 /* YALSideMenu.modulemap */,
-				F3C2E82A8FA12BEEA22CE9845245B165 /* YALSideMenu.xcconfig */,
-				7F112ABECA71E130EFB9811773C8FD0F /* YALSideMenu-dummy.m */,
-				120EB0C7155105338D7CB60F4601E5A3 /* YALSideMenu-prefix.pch */,
-				D0E1E7BAF87880FF334405BCEBF70B5E /* YALSideMenu-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YALSideMenu";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -506,46 +487,60 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				3EBFA4E8CB16635D37E1FEBDF5DE4FF3 /* Frameworks */,
-				A87C4970115BDE355A88B9D02B5D5C5E /* Pods */,
+				1B094B30BADF09429E84B572A63AD235 /* Pods */,
 				F0F70DA6762F6341A9B18C09D010639E /* Products */,
 				864E41BB9F6B26C09F024B17CFABAA27 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		847E65761E45C316F5B4912602388167 /* AXNavigationBackItemInjection */ = {
+		7FA8F235309CBC7525B63534D91F1027 /* AXPracticalHUD */ = {
 			isa = PBXGroup;
 			children = (
-				1B0DD52E449D7FF8957249F52F496D12 /* AXPopNavigationController.h */,
-				9DDF90C318153DE1E609DB9AFAD2DFF8 /* AXPopNavigationController.m */,
-				0029BFC6AFB8F9A391F50559CBC8EAA2 /* Support Files */,
+				7268BEE2EA4E40A983946DC802C248F4 /* AXBarProgressView.h */,
+				DE67D6681C62C76B3BC3AC4F2A687508 /* AXBarProgressView.m */,
+				61560BB3014C5BC4671B3AACD0B314F3 /* AXCircleProgressView.h */,
+				6351372C243AC5EB3829006E42403D34 /* AXCircleProgressView.m */,
+				39CF62D3CA39462CAEAD1AB2FA667E9D /* AXGradientProgressView.h */,
+				3BE4258A9E83E24132447C4425D01996 /* AXGradientProgressView.m */,
+				089AB85FDDDC3E202153B08D8385CC79 /* AXPracticalHUD.h */,
+				1BB4D154B23C6F0352591AF0B8F2B22B /* AXPracticalHUD.m */,
+				4FF274D1710C6C0EFD7379A4B7D68F83 /* AXPracticalHUDAnimator.h */,
+				8822701C8FF027C0614F4779928FBE0B /* AXPracticalHUDAnimator.m */,
+				21858FA06D52E6137327BC963ED8E6CC /* AXPracticalHUDContentView.h */,
+				D5F80507EAFB8F70C24E3E853AF225D4 /* AXPracticalHUDContentView.m */,
+				DC376C285A1EBE701012E4245038BE71 /* Resources */,
+				C07BE5A89EB85F9DDF2D71DB85CC1A6E /* Support Files */,
 			);
-			name = AXNavigationBackItemInjection;
-			path = AXNavigationBackItemInjection;
+			name = AXPracticalHUD;
+			path = AXPracticalHUD;
 			sourceTree = "<group>";
 		};
-		861E9580018E909273351C72AF909724 /* Support Files */ = {
+		8166DCE0B2C73CDAB0BB36800ED76892 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9936CFAC5EBA83601BD82E78F722E380 /* AXWebViewController.modulemap */,
-				3129C916FDD5A9A89C814B970AEAD001 /* AXWebViewController.xcconfig */,
-				0F939B4366416C51B2A991202E991544 /* AXWebViewController-dummy.m */,
-				F86D3AF46D4C82BDF239F61BC0DFB1A5 /* AXWebViewController-prefix.pch */,
-				AC8A9ACB13DB474686298FE9FB7FB209 /* AXWebViewController-umbrella.h */,
-				C693E662D434AFAD4DD9443C2567E2F3 /* Info.plist */,
+				1FCA46A1054D404CEA253A25F1E6FF6F /* Aspects.modulemap */,
+				92F574719FE625740B76E36001F94280 /* Aspects.xcconfig */,
+				1D83B35567772FF2CC939C678D006446 /* Aspects-dummy.m */,
+				EB48E9AC4AC296C7DBF09EC4CB9FAB27 /* Aspects-prefix.pch */,
+				92D8796F2E5F2EA9E96CE1E604774348 /* Aspects-umbrella.h */,
+				113E857E428F2F042D2BBEA32AA5B632 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AXWebViewController";
+			path = "../Target Support Files/Aspects";
 			sourceTree = "<group>";
 		};
-		863ED34A7C478DBE75D51F5A7245DCBA /* Aspects */ = {
+		83AB794E1C8E2A4DDD048B24221BB849 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				441E516344D5081BE48F13894CC6398D /* Aspects.h */,
-				12508EC2C56DF87CE192FD54847F8553 /* Aspects.m */,
-				0DE90D7300F1C76537EE64E878C1CFF0 /* Support Files */,
+				F0EF65E5D45FF6DE4729620A54D00434 /* Info.plist */,
+				E935FEBF92CB206A87128DA2F721F8DA /* NJKWebViewProgress.modulemap */,
+				D350E03C250ADBC886B586E1916D2FF3 /* NJKWebViewProgress.xcconfig */,
+				10A90B3E2FD81A4DA6CA465AA9CBC739 /* NJKWebViewProgress-dummy.m */,
+				D57081EFC1BB6A0600CA0FE308505CF2 /* NJKWebViewProgress-prefix.pch */,
+				F34AB5CCEEA60FD0076280D97CD13B61 /* NJKWebViewProgress-umbrella.h */,
 			);
-			name = Aspects;
-			path = Aspects;
+			name = "Support Files";
+			path = "../Target Support Files/NJKWebViewProgress";
 			sourceTree = "<group>";
 		};
 		864E41BB9F6B26C09F024B17CFABAA27 /* Targets Support Files */ = {
@@ -556,102 +551,133 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		97EEDE65C825D730477608D23FA2DE7A /* AXPracticalHUD */ = {
+		9361EC26A3BC08165AB4C557180F92CD /* AXIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				9F24C7751A2180A4BD75E9FB20D1B0B2 /* AXBarProgressView.h */,
-				67915848A7BD85E82A0E209C78045801 /* AXBarProgressView.m */,
-				BD0CCA8864BFFEE52CBC4086094DB500 /* AXCircleProgressView.h */,
-				6BBA7BB6539DF338D88DEE1BE805ACE7 /* AXCircleProgressView.m */,
-				4FE63E850F1E00B44884A7655EFD8148 /* AXGradientProgressView.h */,
-				5149F1425AC76BC61636D280B151DD3B /* AXGradientProgressView.m */,
-				EA3B79016F93025E2E53DBFA7E907979 /* AXPracticalHUD.h */,
-				D91C0DAB7CDBC6B189DEA243B35B1038 /* AXPracticalHUD.m */,
-				E0F0A91765D817FEB150750FC3597C3B /* AXPracticalHUDAnimator.h */,
-				1F067D94597E47F099386B17C166F047 /* AXPracticalHUDAnimator.m */,
-				7B4CA2950D0CAF84C15FFCE129CB32BC /* AXPracticalHUDContentView.h */,
-				7FE5950A2308B2A5906D4F7FA3AF14B5 /* AXPracticalHUDContentView.m */,
-				D12A51CE0B306B81398E647E094ED13C /* Resources */,
-				28A4F0ED152865440ACE74CA8998273A /* Support Files */,
-			);
-			name = AXPracticalHUD;
-			path = AXPracticalHUD;
-			sourceTree = "<group>";
-		};
-		A87C4970115BDE355A88B9D02B5D5C5E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				863ED34A7C478DBE75D51F5A7245DCBA /* Aspects */,
-				D0ADC7CC96092A3800EA3D7FE68883A4 /* AXIndicatorView */,
-				847E65761E45C316F5B4912602388167 /* AXNavigationBackItemInjection */,
-				97EEDE65C825D730477608D23FA2DE7A /* AXPracticalHUD */,
-				629193AA4FB62277AFD4B10B4607DE47 /* AXWebViewController */,
-				CF05070A8C7F1C9C567EB20282DB579F /* NJKWebViewProgress */,
-				E4623882F2FC1C0E9040099314E7F654 /* YALSideMenu */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A98BAA3037598A6DA652505D4267B42C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D05985FCFC2627E30BD90B641F2E2FA3 /* AXIndicatorView.modulemap */,
-				89C887CC1A5F0CE884655D098823F0E1 /* AXIndicatorView.xcconfig */,
-				5573721979EBF87725EA91DDE1B124FE /* AXIndicatorView-dummy.m */,
-				8BF7299284AC306AE205BA5E08F48E57 /* AXIndicatorView-prefix.pch */,
-				D020E7DF97F4FDDED860D31C68339649 /* AXIndicatorView-umbrella.h */,
-				6F4F393FC8685278DB7321DDE4ABE0E1 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AXIndicatorView";
-			sourceTree = "<group>";
-		};
-		CF05070A8C7F1C9C567EB20282DB579F /* NJKWebViewProgress */ = {
-			isa = PBXGroup;
-			children = (
-				F512AE194CDFC628492F0E0D73B28CB3 /* Core */,
-				23EFC184B665A1376492062740EB9605 /* ProgressView */,
-				6439EA5C69C74358182E2F0B030936DE /* Support Files */,
-			);
-			name = NJKWebViewProgress;
-			path = NJKWebViewProgress;
-			sourceTree = "<group>";
-		};
-		D0ADC7CC96092A3800EA3D7FE68883A4 /* AXIndicatorView */ = {
-			isa = PBXGroup;
-			children = (
-				BC76504CC2905DCEB97AB44A420344E4 /* AXActivityIndicatorView.h */,
-				84A681DD227225F21DA6651DD832EDD7 /* AXActivityIndicatorView.m */,
-				BF50D0AA7A63B635EF37D9308ECC803B /* AXBreachedAnnulusIndicatorView.h */,
-				309044CD685B9D84DD508CD556DB6D77 /* AXBreachedAnnulusIndicatorView.m */,
-				DC78EE1A3A85D04B8838C0E0732BDC46 /* AXIndicatorView.h */,
-				36C0054B48AAF9DAB40242C8E57E5800 /* AXSpinningWaitCursor.h */,
-				627834BF618F26929A2A91D5E005C100 /* AXSpinningWaitCursor.m */,
-				6FBBE19C40EBEDA60C491C583606AB3D /* Resources */,
-				A98BAA3037598A6DA652505D4267B42C /* Support Files */,
+				573761DDC27CEA0CDAF0A35BC9564BF1 /* AXActivityIndicatorView.h */,
+				DCEC068A36B01CB3DD6B3B95BFCBB392 /* AXActivityIndicatorView.m */,
+				BFBB35B779C689B32C1E3BD4331D1EB6 /* AXBreachedAnnulusIndicatorView.h */,
+				317F06FBD2A72240ACF6F6ADDAC056FA /* AXBreachedAnnulusIndicatorView.m */,
+				56E5E934CF68E01A8F7849C6AA010994 /* AXIndicatorView.h */,
+				D42555D9A321BB9B7E7462B402E08503 /* AXSpinningWaitCursor.h */,
+				F8FD11EC44A34E19DB1D77D27676B398 /* AXSpinningWaitCursor.m */,
+				CEC72247BB210140F18635CAA0F11E96 /* Resources */,
+				D04FF8C7A28688E37EC2732175B43F30 /* Support Files */,
 			);
 			name = AXIndicatorView;
 			path = AXIndicatorView;
 			sourceTree = "<group>";
 		};
-		D12A51CE0B306B81398E647E094ED13C /* Resources */ = {
+		B8FCD1E5F49BAB051E8EFF3A2A0A7760 /* Aspects */ = {
 			isa = PBXGroup;
 			children = (
-				C28390D427615834844D8671EC94FB05 /* AXPracticalHUD.bundle */,
+				8546B703DC7AF587C865A7FA79131B80 /* Aspects.h */,
+				E938875A4BA81A2DAEF477EAD82B4057 /* Aspects.m */,
+				8166DCE0B2C73CDAB0BB36800ED76892 /* Support Files */,
+			);
+			name = Aspects;
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		C07BE5A89EB85F9DDF2D71DB85CC1A6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2704CA8923A934A994718D479941E10 /* AXPracticalHUD.modulemap */,
+				3C27F98677CE9C68A2B153BB9FFF070D /* AXPracticalHUD.xcconfig */,
+				1D7A156DC9ADFE8F57F9751813096CC7 /* AXPracticalHUD-dummy.m */,
+				94E9F45BD9125258BC8A299DB880BCA8 /* AXPracticalHUD-prefix.pch */,
+				BC2C5F24BFC49212647BCF1E881BA106 /* AXPracticalHUD-umbrella.h */,
+				53CA3372916D316FC1DA211F3470AE06 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AXPracticalHUD";
+			sourceTree = "<group>";
+		};
+		C17E18165C10ECEF0A13D01AA0CE9535 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B74F834C1F3C731B8CB81A572DE9C803 /* AXWebViewController.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		E4623882F2FC1C0E9040099314E7F654 /* YALSideMenu */ = {
+		C3AE3CB5BAF941CC8F4696B0E9656FEA /* Crashlytics */ = {
 			isa = PBXGroup;
 			children = (
-				36028D6A969829E025CCC29FF520AF75 /* Menu.swift */,
-				8C1BDF43B54DD783507314332215A23C /* MenuItemsAnimator.swift */,
-				CD262F0DD23818C6D1BE4C4F3155D7E4 /* MenuTransitionAnimator.swift */,
-				7CEAF3A26A4E4FEFEBD46D9C1CC9FAFD /* Support Files */,
+				FAD887E586D06251D894C5368F326CB2 /* ANSCompatibility.h */,
+				0D1EBFC0C1A3BE4C7B52FE690CF01564 /* Answers.h */,
+				DAE44A1954F04F70AEA5184B59E3DEB4 /* CLSAttributes.h */,
+				68B8D0045FEC6C28B288A01B7C476717 /* CLSLogging.h */,
+				8E5AB42E797BAC95837E66544AE0D5AC /* CLSReport.h */,
+				54283F834B6F011D2B14BBA5A536CF4D /* CLSStackFrame.h */,
+				24ADF96B0EDA2289BD5207B70E2827E9 /* Crashlytics.h */,
+				E4316689EFFDD128A7E96F495AE951CA /* Frameworks */,
 			);
-			name = YALSideMenu;
-			path = YALSideMenu;
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		CEC72247BB210140F18635CAA0F11E96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78F139049860229FFFED9F577505FD91 /* AXIndicatorView.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D04FF8C7A28688E37EC2732175B43F30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				139820765CB32C3DAD2FEC630ACC6B53 /* AXIndicatorView.modulemap */,
+				BD99F0A4D9A74FF83905824FA57B6E04 /* AXIndicatorView.xcconfig */,
+				33ADECFF59E40970D6F59E6C3CD1F25A /* AXIndicatorView-dummy.m */,
+				1A5B07618D4E634B9AD35DBBE2294D32 /* AXIndicatorView-prefix.pch */,
+				52437C80B0AD46D80FBEA004A36803E9 /* AXIndicatorView-umbrella.h */,
+				37E5EE1E963F3805A43AA30BB4C6C635 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AXIndicatorView";
+			sourceTree = "<group>";
+		};
+		DC376C285A1EBE701012E4245038BE71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B76BA3B5E8925C307F41A60735FB2BB /* AXPracticalHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E4316689EFFDD128A7E96F495AE951CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2C798A3273CC95B179CC46C888B2F5B /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA53C29B47B10503C2FF6CC53365694A /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				F9DDCFB0BBB2692B788A2FB98AC220F0 /* FABAttributes.h */,
+				55C1795555CA272623AFD676DE42B47C /* Fabric.h */,
+				70737740D801AD8147C5FEAE840DAECD /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		ECBCCB6469092BA87C1E61C43223D6DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8991CB02B415B81BCF2D34B2675B6318 /* AXWebViewController.modulemap */,
+				6AD0AB77E4727A5E5F6943AE3B4573AF /* AXWebViewController.xcconfig */,
+				C9C7CDAADD050DF9033083ABC9592F7C /* AXWebViewController-dummy.m */,
+				C979FD211455F0EF9E94782341C9BBF4 /* AXWebViewController-prefix.pch */,
+				7138C87547AF5FC8A3AEBFC7A491F6F5 /* AXWebViewController-umbrella.h */,
+				7B10B71545AFE10A67E89B6256700466 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AXWebViewController";
 			sourceTree = "<group>";
 		};
 		EFA36239F1BC4F0AF934477FCA9F9917 /* Pods-Deuro */ = {
@@ -672,6 +698,20 @@
 			path = "Target Support Files/Pods-Deuro";
 			sourceTree = "<group>";
 		};
+		F0D070901F3D629E4675F560E4B71EC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1810AC6D989D1211C1EF0C2A20730DE /* Info.plist */,
+				1E5FEE8F80F2236955DA3E77CC9AD9C7 /* YALSideMenu.modulemap */,
+				5E25F90A01EA92F08DBBF3ECE2169D95 /* YALSideMenu.xcconfig */,
+				0102D250BB98517C36BB1335E2F60D61 /* YALSideMenu-dummy.m */,
+				D40843444F3E174FB106D881777E92A6 /* YALSideMenu-prefix.pch */,
+				3F9B29D10FC7A20D4834D8BE4D56DA99 /* YALSideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YALSideMenu";
+			sourceTree = "<group>";
+		};
 		F0F70DA6762F6341A9B18C09D010639E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -687,11 +727,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F512AE194CDFC628492F0E0D73B28CB3 /* Core */ = {
+		F1624CBD48FE626FCFF786EB41A6D995 /* AXWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				90FF08396A7FBABC9BB5E9A451BF6C56 /* NJKWebViewProgress.h */,
-				4DC16D66EF93FB72539CEA56D82232E1 /* NJKWebViewProgress.m */,
+				925AFDF3873A567DFACD96EC424A2FD5 /* AXSecurityPolicy.h */,
+				C0F818C29F63BDDD037E222AEC8CD6F8 /* AXSecurityPolicy.m */,
+				29E831AD40F25C31C2037A1DEC1F8337 /* AXWebViewController.h */,
+				711DB9D8E75E20E33DF2B06F957329AF /* AXWebViewController.m */,
+				C7291E8243389A0D517517553EEFAD86 /* AXWebViewControllerActivity.h */,
+				EC9F99EB781B4AC7674B72D242163536 /* AXWebViewControllerActivity.m */,
+				C17E18165C10ECEF0A13D01AA0CE9535 /* Resources */,
+				ECBCCB6469092BA87C1E61C43223D6DC /* Support Files */,
+			);
+			name = AXWebViewController;
+			path = AXWebViewController;
+			sourceTree = "<group>";
+		};
+		F42424C364AADAEF8B43C234F93FFC02 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CC6DAB5709770E4F595EC447F195252C /* NJKWebViewProgress.h */,
+				C6035E6D4CA32F1E0A3CEC9D8774E302 /* NJKWebViewProgress.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -1165,7 +1221,7 @@
 /* Begin XCBuildConfiguration section */
 		0CC4CBFF8F84FFB780AD542032242CC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC10B8B33743C7F1BABC8F39FE456421 /* AXPracticalHUD.xcconfig */;
+			baseConfigurationReference = 3C27F98677CE9C68A2B153BB9FFF070D /* AXPracticalHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1196,7 +1252,7 @@
 		};
 		1E927BD1720F5DDEF812306278C415EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9BCC9390671F42BA2215458E36A55C7 /* AXNavigationBackItemInjection.xcconfig */;
+			baseConfigurationReference = 6485A175A8E32F3A7DF45C54FC832AD7 /* AXNavigationBackItemInjection.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1227,7 +1283,7 @@
 		};
 		25B8BD9448F966D0BE6C7F0AA8D5BB21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F6978A0F10E922A1150D0739CBBADBA /* Aspects.xcconfig */;
+			baseConfigurationReference = 92F574719FE625740B76E36001F94280 /* Aspects.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1258,7 +1314,7 @@
 		};
 		2ADE03D5AC1442509DBB13C7D47110E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3129C916FDD5A9A89C814B970AEAD001 /* AXWebViewController.xcconfig */;
+			baseConfigurationReference = 6AD0AB77E4727A5E5F6943AE3B4573AF /* AXWebViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1346,7 +1402,7 @@
 		};
 		6D40C6C712FA2D451590481C955798A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9BCC9390671F42BA2215458E36A55C7 /* AXNavigationBackItemInjection.xcconfig */;
+			baseConfigurationReference = 6485A175A8E32F3A7DF45C54FC832AD7 /* AXNavigationBackItemInjection.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1376,7 +1432,7 @@
 		};
 		6EB3BCFB3D6EF32694D74744D859AF35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3C2E82A8FA12BEEA22CE9845245B165 /* YALSideMenu.xcconfig */;
+			baseConfigurationReference = 5E25F90A01EA92F08DBBF3ECE2169D95 /* YALSideMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1407,7 +1463,7 @@
 		};
 		7340D59E5145FF7F684740FA8D608ADA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F6978A0F10E922A1150D0739CBBADBA /* Aspects.xcconfig */;
+			baseConfigurationReference = 92F574719FE625740B76E36001F94280 /* Aspects.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1437,7 +1493,7 @@
 		};
 		7D4836C6E181451ED32BCF87F66AB19F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3C2E82A8FA12BEEA22CE9845245B165 /* YALSideMenu.xcconfig */;
+			baseConfigurationReference = 5E25F90A01EA92F08DBBF3ECE2169D95 /* YALSideMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1469,7 +1525,7 @@
 		};
 		7DAB21B77FDED5E53157F54EA8B0A915 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE17B0DD6A9F19DEC76D8BE60B9BDCAC /* NJKWebViewProgress.xcconfig */;
+			baseConfigurationReference = D350E03C250ADBC886B586E1916D2FF3 /* NJKWebViewProgress.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1500,7 +1556,7 @@
 		};
 		8C117B9CC2E23ECF6A9D96F3BB407803 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE17B0DD6A9F19DEC76D8BE60B9BDCAC /* NJKWebViewProgress.xcconfig */;
+			baseConfigurationReference = D350E03C250ADBC886B586E1916D2FF3 /* NJKWebViewProgress.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1530,7 +1586,7 @@
 		};
 		8C1A8D754102813244A36C94A575DCF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC10B8B33743C7F1BABC8F39FE456421 /* AXPracticalHUD.xcconfig */;
+			baseConfigurationReference = 3C27F98677CE9C68A2B153BB9FFF070D /* AXPracticalHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1595,7 +1651,7 @@
 		};
 		B654915B908A34588D27DAA21980BBFC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3129C916FDD5A9A89C814B970AEAD001 /* AXWebViewController.xcconfig */;
+			baseConfigurationReference = 6AD0AB77E4727A5E5F6943AE3B4573AF /* AXWebViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1626,7 +1682,7 @@
 		};
 		BE623D5A095DBC0BE01DB756A8E1F8CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C887CC1A5F0CE884655D098823F0E1 /* AXIndicatorView.xcconfig */;
+			baseConfigurationReference = BD99F0A4D9A74FF83905824FA57B6E04 /* AXIndicatorView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1720,7 +1776,7 @@
 		};
 		E83A41AF50B00351B5124C3EF173D1BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C887CC1A5F0CE884655D098823F0E1 /* AXIndicatorView.xcconfig */;
+			baseConfigurationReference = BD99F0A4D9A74FF83905824FA57B6E04 /* AXIndicatorView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

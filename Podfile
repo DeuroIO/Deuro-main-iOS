@@ -8,4 +8,6 @@ target 'Deuro' do
   # Pods for Deuro
   pod 'YALSideMenu'
   pod 'AXWebViewController'
+  pod 'Fabric'
+  pod 'Crashlytics'
 end
