@@ -1,7 +1,7 @@
 # Deuro
 
-[![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)](http://cocoapods.org/?q=YALSideMenu)
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Yalantis/Side-Menu.iOS/blob/master/LICENSE)
+![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)
+![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)
 
 <img src="demo.gif" />
 
