@@ -19,10 +19,10 @@ platform :ios do
 
     # Increment the build number (not the version number)
     # Providing the xcodeproj is optional
-    increment_build_number(workspace: "Deuro.xcworkspace")
+    increment_build_number()
 
     # Commit the version bump
-    commit_version_bump(workspace: "Deuro.xcworkspace")
+    commit_version_bump(xcodeproj: "Deuro.xcodeproj")
 
     # Add a git tag for this build. This will automatically
     # use an appropriate git tag name
