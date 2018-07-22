@@ -597,6 +597,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Deuro/Resource/Deuro-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -618,6 +619,7 @@
 				PRODUCT_NAME = Deuro;
 				SWIFT_OBJC_BRIDGING_HEADER = "Deuro/Resource/Deuro-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
