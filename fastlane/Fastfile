@@ -20,4 +20,10 @@ platform :ios do
     build_app(workspace: "Deuro.xcworkspace", scheme: "Deuro")
     upload_to_app_store
   end
+
+  lane :beta do
+    # ...
+    build_app(workspace: "Deuro.xcworkspace", scheme: "Deuro")
+    crashlytics(api_token: "e8bc8ddfc58d3f38d03e64a8c53fcf9cbf4adc64",build_secret: "5483cbf13d43ab7658f9037d0fc3cc75d227f1f138f1b2b7e58b96c3ca83be17")
+  end
 end
