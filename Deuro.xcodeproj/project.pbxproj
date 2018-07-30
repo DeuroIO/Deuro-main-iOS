@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C039DFD5210E99EE00D99213 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C039DFD4210E99ED00D99213 /* awsconfiguration.json */; };
 		C0C7FD0620FFA3250052FD53 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7FD0520FFA3250052FD53 /* MainNavigationController.swift */; };
 		C0C7FD0C20FFD9400052FD53 /* AWCollectionViewSlidingDoorLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C7FD0B20FFD9400052FD53 /* AWCollectionViewSlidingDoorLayout.m */; };
 		C0C7FD1C20FFD95D0052FD53 /* photo-1445285303476-2f3b16d67b7a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C7FD0E20FFD95D0052FD53 /* photo-1445285303476-2f3b16d67b7a.jpg */; };
@@ -58,6 +59,7 @@
 		50B9664E1A25E40E00208F2E /* Deuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B966521A25E40E00208F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DB3452E422EDC1248757C18 /* Pods-Deuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deuro/Pods-Deuro.debug.xcconfig"; sourceTree = "<group>"; };
+		C039DFD4210E99ED00D99213 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = ../../../../Downloads/awsconfiguration.json; sourceTree = "<group>"; };
 		C0C7FD0520FFA3250052FD53 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		C0C7FD0920FFD93F0052FD53 /* Deuro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Deuro-Bridging-Header.h"; sourceTree = "<group>"; };
 		C0C7FD0A20FFD9400052FD53 /* AWCollectionViewSlidingDoorLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWCollectionViewSlidingDoorLayout.h; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		50B966511A25E40E00208F2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C039DFD4210E99ED00D99213 /* awsconfiguration.json */,
 				50B966521A25E40E00208F2E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -352,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C039DFD5210E99EE00D99213 /* awsconfiguration.json in Resources */,
 				C0C7FD2820FFD95D0052FD53 /* photo-1331975562098-bac8ded504c7.jpg in Resources */,
 				C0C7FD2120FFD95D0052FD53 /* photo-1443890923422-7819ed4101c0.jpg in Resources */,
 				C0C7FD3720FFE5920052FD53 /* galleryCell.xib in Resources */,
@@ -384,6 +388,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Deuro/Pods-Deuro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
 				"${BUILT_PRODUCTS_DIR}/AXIndicatorView/AXIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/AXNavigationBackItemInjection/AXNavigationBackItemInjection.framework",
 				"${BUILT_PRODUCTS_DIR}/AXPracticalHUD/AXPracticalHUD.framework",
@@ -394,6 +401,9 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXNavigationBackItemInjection.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXPracticalHUD.framework",

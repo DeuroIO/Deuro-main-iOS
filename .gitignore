@@ -42,3 +42,5 @@ Gemfile.lock
 # Frameit generated screenshots
 /fastlane/screenshots/*/*-portrait_framed.png
 /fastlane/screenshots/*/*-landscape_framed.png
+
+awsconfiguration.json

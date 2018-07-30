@@ -1,5 +1,10 @@
 PODS:
   - Aspects (1.4.1)
+  - AWSAuthCore (2.6.25):
+    - AWSCore (= 2.6.25)
+  - AWSCore (2.6.25)
+  - AWSMobileClient (2.6.25):
+    - AWSAuthCore (= 2.6.25)
   - AXIndicatorView (0.1.1)
   - AXNavigationBackItemInjection (0.0.2)
   - AXPracticalHUD (2.0.2):
@@ -20,6 +25,7 @@ PODS:
   - YALSideMenu (2.0.1)
 
 DEPENDENCIES:
+  - AWSMobileClient
   - AXWebViewController
   - Crashlytics
   - Fabric
@@ -27,6 +33,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AWSAuthCore: ee797576ca94ef45b48cbf40bb113944791a09ab
+  AWSCore: 93ac57c361f6ff9c0749adf9404c4a1a1ecdaa2b
+  AWSMobileClient: 89f45bf39e73dedc2c9ce673146167e2009e8200
   AXIndicatorView: 566b490a2dd9781d4ffbcc9752be9b9cdc6e728e
   AXNavigationBackItemInjection: efe0446967f3cbcc85a9118decd1e145138912dd
   AXPracticalHUD: 16c3ff6d97c061e80e80897b2e6ac8e330079472
@@ -36,6 +45,6 @@ SPEC CHECKSUMS:
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
   YALSideMenu: 4d6b90ea44dcdded18a99e46b676e4ad51d9c6bb
 
-PODFILE CHECKSUM: cdcf259bd7e5263238e72268a40cea50b45f62e3
+PODFILE CHECKSUM: 6a33eb72da147119f36a0b2558e542f9d2334e62
 
 COCOAPODS: 1.4.0

@@ -10,4 +10,5 @@ target 'Deuro' do
   pod 'AXWebViewController'
   pod 'Fabric'
   pod 'Crashlytics'
+  pod 'AWSMobileClient'
 end

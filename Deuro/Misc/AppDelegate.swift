@@ -7,13 +7,23 @@
 import UIKit
 import Fabric
 import Crashlytics
+import AWSMobileClient
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+        print("didFinishLaunchingWithOptions")
+        // Create AWSMobileClient to connect with AWS
+        return AWSMobileClient.sharedInstance().interceptApplication(
+            application,
+            didFinishLaunchingWithOptions: launchOptions)
+    }
+    
     func applicationDidBecomeActive(_ application: UIApplication) {
+        print("applicationDidBecomeActive")
         Fabric.with([Crashlytics.self])
         
         let telegramButton = UIButton(type: .custom)
