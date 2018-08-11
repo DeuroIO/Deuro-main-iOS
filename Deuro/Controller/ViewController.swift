@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-    let urlArray = ["","http://ai.deuro.io", "http://sys.deuro.io", "http://dapp.deuro.io", "http://ai.deuro.io"]
+    let urlArray = ["","http://18.221.131.198:8888/", "http://18.221.131.198:19999/", "http://18.221.131.198:3000/", "http://18.221.131.198:8888/"]
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch (segue.identifier, segue.destination) {
